@@ -1,8 +1,12 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import type { SrsCard, VocabItem } from '../lib/types'
 import { VOCAB, CATS, CAT_MAP } from '../content/cats'
 import { WordDetail, imgSrc } from '../components/WordDetail'
 import { ISearch } from '../ui'
+
+// 网格最多直接渲染的卡片数:再多的词请用搜索(5000+ 卡片会把浏览器拖死)
+const MAX_RENDER = 840
+const PAGE = 240
 
 export function Words(props: {
   cards: Record<string, SrsCard>
@@ -15,6 +19,12 @@ export function Words(props: {
   const [onlyUnlearned, setOnlyUnlearned] = useState(false)
   const [detail, setDetail] = useState<VocabItem | null>(null)
   const [visible, setVisible] = useState(120)
+  const [qLive, setQLive] = useState('') // 防抖前的输入
+
+  useEffect(() => {
+    const t = window.setTimeout(() => setQ(qLive.trim()), 160)
+    return () => window.clearTimeout(t)
+  }, [qLive])
 
   const list = useMemo(() => {
     const kw = q.trim().toLowerCase()
@@ -43,8 +53,8 @@ export function Words(props: {
         <ISearch color="var(--ink-soft)" />
         <input
           placeholder="搜词语 / 拼音 / 打法描述…(如 nihao、谢谢、竖拇指)"
-          value={q}
-          onChange={(e) => setQ(e.target.value)}
+          value={qLive}
+          onChange={(e) => setQLive(e.target.value)}
         />
       </div>
 
@@ -74,7 +84,8 @@ export function Words(props: {
       ) : (
         <>
           <p style={{ fontSize: 12.5, color: 'var(--ink-soft)', margin: '0 0 10px' }}>
-            共 {list.length} 个词,显示前 {Math.min(visible, list.length)} 个
+            共 {list.length} 个词,显示 {Math.min(visible, list.length)} 个
+            {visible < list.length && visible >= MAX_RENDER && '(为流畅起见只列一部分,更多请用上方搜索)'}
           </p>
           <div className="word-grid">
             {list.slice(0, visible).map((v) => (
@@ -90,10 +101,10 @@ export function Words(props: {
               </div>
             ))}
           </div>
-          {visible < list.length && (
+          {visible < list.length && visible < MAX_RENDER && (
             <div style={{ textAlign: 'center', margin: '18px 0' }}>
-              <button className="btn" onClick={() => setVisible((n) => n + 240)}>
-                加载更多(还有 {list.length - visible} 个)
+              <button className="btn" onClick={() => setVisible((n) => Math.min(n + PAGE, MAX_RENDER))}>
+                加载更多(还有 {Math.min(list.length - visible, MAX_RENDER - visible)} 个)
               </button>
             </div>
           )}

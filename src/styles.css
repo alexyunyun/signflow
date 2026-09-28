@@ -212,6 +212,8 @@ img { max-width: 100%; }
   padding: 12px 10px 10px; text-align: center; cursor: pointer;
   transition: transform 0.1s;
   position: relative;
+  content-visibility: auto;         /* 屏外卡片跳过渲染,大列表不卡 */
+  contain-intrinsic-size: 180px 205px;
 }
 .word-card:nth-child(4n + 1) { transform: rotate(-0.8deg); }
 .word-card:nth-child(4n + 2) { transform: rotate(0.6deg); }
