@@ -24,7 +24,9 @@ export const CATS: CatMeta[] = [
   { id: 'describe', label: '描述疑问', emoji: '❓', blurb: '大小多少、什么哪里' },
   { id: 'things', label: '生活物件', emoji: '🎒', blurb: '钱物、衣物、居家用品' },
   { id: 'travel', label: '交通出行', emoji: '🚌', blurb: '火车飞机、马路公交' },
-  { id: 'weather', label: '天气节令', emoji: '🌤', blurb: '晴雨冷暖、四季节日' }
+  { id: 'weather', label: '天气节令', emoji: '🌤', blurb: '晴雨冷暖、四季节日' },
+  { id: 'nature', label: '动物植物', emoji: '🐾', blurb: '猫狗花鸟、草木自然' },
+  { id: 'general', label: '常用杂项', emoji: '🗂', blurb: '其余高频词都在这里' }
 ]
 
 export const CAT_MAP = new Map(CATS.map((c) => [c.id, c]))

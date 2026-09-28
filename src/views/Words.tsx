@@ -14,6 +14,7 @@ export function Words(props: {
   const [cat, setCat] = useState('all')
   const [onlyUnlearned, setOnlyUnlearned] = useState(false)
   const [detail, setDetail] = useState<VocabItem | null>(null)
+  const [visible, setVisible] = useState(120)
 
   const list = useMemo(() => {
     const kw = q.trim().toLowerCase()
@@ -30,6 +31,11 @@ export function Words(props: {
       )
     })
   }, [q, cat, onlyUnlearned, cards])
+
+  // 筛选变化时重置分页
+  const filterKey = `${q}|${cat}|${onlyUnlearned}`
+  const [lastKey, setLastKey] = useState(filterKey)
+  if (filterKey !== lastKey) { setLastKey(filterKey); setVisible(120) }
 
   return (
     <>
@@ -48,6 +54,7 @@ export function Words(props: {
         </button>
         {CATS.map((c) => {
           const n = VOCAB.filter((v) => v.cat === c.id).length
+          if (!n) return null
           return (
             <button key={c.id} className={cxChip(cat === c.id)} onClick={() => setCat(c.id)}>
               {c.emoji} {c.label} {n}
@@ -62,23 +69,35 @@ export function Words(props: {
       {list.length === 0 ? (
         <div className="empty-box sketch">
           <div className="big">🔍</div>
-          没找到「{q}」相关的词<br />去问问 AI 助教,或到「真人视频」里搜一搜
+          没找到「{q}」相关的词<br />去问问 AI 助教,或到「视频教学」里搜一搜
         </div>
       ) : (
-        <div className="word-grid">
-          {list.map((v) => (
-            <div className="word-card sketch" key={v.id} onClick={() => setDetail(v)}>
-              {cards[v.word] && <span className="learned-mark">✓学过</span>}
-              {v.imgs.length ? (
-                <img src={imgSrc(v.imgs[0])} alt={`${v.word} 手语图解`} loading="lazy" />
-              ) : (
-                <div className="noimg">🤟</div>
-              )}
-              <b>{v.word}</b>
-              <div className="py">{CAT_MAP.get(v.cat)?.emoji} {v.pinyin}</div>
+        <>
+          <p style={{ fontSize: 12.5, color: 'var(--ink-soft)', margin: '0 0 10px' }}>
+            共 {list.length} 个词,显示前 {Math.min(visible, list.length)} 个
+          </p>
+          <div className="word-grid">
+            {list.slice(0, visible).map((v) => (
+              <div className="word-card sketch" key={v.id} onClick={() => setDetail(v)}>
+                {cards[v.word] && <span className="learned-mark">✓学过</span>}
+                {v.imgs.length ? (
+                  <img src={imgSrc(v.imgs[0])} alt={`${v.word} 手语图解`} loading="lazy" />
+                ) : (
+                  <div className="noimg">🤟</div>
+                )}
+                <b>{v.word}</b>
+                <div className="py">{CAT_MAP.get(v.cat)?.emoji} {v.pinyin}</div>
+              </div>
+            ))}
+          </div>
+          {visible < list.length && (
+            <div style={{ textAlign: 'center', margin: '18px 0' }}>
+              <button className="btn" onClick={() => setVisible((n) => n + 240)}>
+                加载更多(还有 {list.length - visible} 个)
+              </button>
             </div>
-          ))}
-        </div>
+          )}
+        </>
       )}
 
       {detail && (

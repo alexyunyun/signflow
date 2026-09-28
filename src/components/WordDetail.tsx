@@ -44,7 +44,7 @@ export function WordDetail(props: {
           </div>
         ) : (
           <div className="noimg-big">
-            这个词暂无图解<br />建议点击下方「真人视频」对照学习
+            这个词暂无图解<br />建议点击下方「视频教学」对照学习
           </div>
         )}
 
@@ -59,7 +59,9 @@ export function WordDetail(props: {
               <button className="btn small primary" onClick={() => onLearn(item)}><IPlus /> 加入学习</button>
             )
           )}
-          <a className="btn small" href={videoLink(item.word)} target="_blank" rel="noreferrer"><IVideo /> 真人视频</a>
+          <a className="btn small" href={videoLink(item.word)} target="_blank" rel="noreferrer" title="官方词典 APP 的逐词视频无网页版;B 站上有各地残联官方号的教学视频,搜这个词跟着学">
+            <IVideo /> 视频教学
+          </a>
           <a className="btn small" href={dictLink(item.word)} target="_blank" rel="noreferrer">📖 图文词典</a>
           {onAskAI && <button className="btn small" onClick={() => onAskAI(item.word)}><ITutor /> 问 AI 助教</button>}
         </div>

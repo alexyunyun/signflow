@@ -1,51 +1,50 @@
-// 词汇数据构建脚本:合并 vocab-meta.tsv(分类/钩子) + signs-raw.tsv(描述/图) + pinyin.json
-// 运行:node scripts/build-vocab.mjs → 输出 src/content/vocab.json
-// 改动词汇清单后需重新运行并提交产物
+// 词汇数据构建脚本 v2:全量词库
+// 数据源:
+//   data-src/bmcx-full.tsv      全量爬取(id 词 bmcx分类 描述|图片URL)
+//   data-src/vocab-meta.tsv     精选词条覆盖(词|分类|记忆钩子)
+//   data-src/signs-raw.tsv      精选词条的描述与多图(pinyin-id 词 描述|图片URL)
+//   data-src/pinyin-full.json   全量拼音映射(python scripts/gen-pinyin.py 生成)
+// 运行:node scripts/build-vocab.mjs → src/content/vocab.json
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const read = (p) => fs.readFileSync(path.join(ROOT, p), 'utf8')
+const exists = (p) => fs.existsSync(path.join(ROOT, p))
 
-// 人工校订:覆盖自动抓取的描述(抓取缺失或表述不清的词)
-const OVERRIDES = {
-  疼: '一手食指指点疼痛的部位,面露痛苦表情。',
-  头: '一手五指微曲,罩于头顶,如轻摸头状。',
-  嘴: '一手食指指向嘴部。',
-  手: '一手五指自然张开,另一手食指指向其掌心。',
-  贵: '一手拇、食指指尖相对,间距渐渐拉开,表示价钱往上抬。',
-  地铁: '(一)一手食指向下指,表示地下;(二)双手握拳,虎口向上,一上一下,上拳敲打下拳,再向里移动,如列车沿轨道行驶。',
-  会: '一手食指直立,指背向外,手腕向下弯动一下,表示能够。',
-  写: '一手拇、食、中指如执笔,在另一手掌心或空中书写。',
-  找: '一手食指直立,在眼前左右转动,如四处寻找。',
-  问: '一手食指横于嘴前移动一下,再向前伸出,面露疑问神情。',
-  晚安: '先打"晚上"手势(五指边合拢边下移,天色转暗),再双手合掌贴于脸侧,闭眼作睡觉状。',
-  饱: '一手掌心贴于腹部轻拍两下,面露满足神情。',
-  渴: '一手五指虚握如持杯,伸向嘴边作饮水状,面露干渴神情。',
-  中国: '一手伸食指,自咽喉部顺肩胸划至腰间,沿旗袍前襟线示意。',
-  唱歌: '双手伸拇、食指,食指尖对着喉部,同时向外移出两下,口张开,头随之轻晃。',
-  生气: '一手食指竖立于鼻尖前,左右微微摆动,脸露怒容,表示气冲冲的样子。',
-  妹妹: '(一)一手伸小指贴于嘴唇上,表示排行最小;(二)一手拇、食指捏耳垂,表示"女"。',
-  同学: '(一)双手放于面前,如捧书状;(二)一手食指指向身旁同伴。(参考打法)',
-  电影院: '(一)一手五指张开,掌心向内,在面前摆动几下,即"电影";(二)双手搭成"＾"形,如屋顶状,表示场所。',
-  饭馆: '(一)一手拇、食指相对,中间留米粒大小距离,一手伸食、中指如持筷作吃饭状,即"饭";(二)双手搭成"＾"形,如屋顶状,表示场所。',
-  公园: '(一)双手拇、食指搭成"公"字形;(二)双手拇、食指搭成圆形,表示园地。',
-  打扫: '(一)一手握拳向下击打一下;(二)另一手五指并拢,掌心向外,左右扫动,如扫地状。',
-  不好意思: '(一)一手直立,掌心向外,左右摆动几下,表示"不好";(二)一手打字母"Y"指式,食指在太阳穴处转一圈,表示"意思"。',
-  大: '双手横伸,掌心向下,同时向两侧拉开,表示面积大。',
-  小: '双手横伸,掌心向下,同时向中间靠拢,表示范围小。',
-  药店: '连打字母"Y""O"指式,即"药";双手搭成"＾"形,如屋顶状,表示场所。',
-  矮: '一手平伸,掌心向下,往下微压,表示高度低。',
-  儿子: '(一)一手直立,五指并拢,掌心向内,置于头侧,自后向前挥动,即"男"手势;(二)一手平伸,掌心向下,于腰际微动,即"小孩"手势。',
-  女儿: '(一)一手拇、食指捏耳垂,即"女"手势;(二)一手平伸,掌心向下,于腰际微动,即"小孩"手势。',
-  下雪: '双手五指分开微曲,指尖向下,缓缓下降并向一旁飘移,象征雪花飘落之状。',
-  服务员: '(一)右手伸平,手背向外,贴于耳前;(二)右手按在另一侧肩部,如招呼侍应。',
-  拜托: '一手掌心向上,五指并拢,置于同侧肩膀上方,仿托物动作,表示托付、恳求。',
-  手机: '一手五指微曲如持手机,置于眼前,另一手食指在"屏幕"上点划两下。(参考打法)'
+// bmcx 分类 → 应用分类
+const CAT_OF_BMCX = {
+  卫生: 'health', 心理: 'mood', 时间: 'time', 数目: 'time', 数量词: 'time',
+  交通邮电: 'travel', 日用品: 'things', 服饰: 'things', 天体气象: 'weather',
+  教育: 'learn', 工作: 'learn', 地理地质: 'place', 洲洋国家名称: 'place',
+  党政机关: 'place', 动物: 'nature', 植物: 'nature', 体育: 'general',
+  饮食: 'food', 服装: 'things'
 }
 
-// 打法描述拆成步骤
+// 关键词规则(优先于 bmcx 分类)
+const RULES = [
+  ['people', /爸爸妈妈爷爷奶奶外公外婆叔伯姑舅姨哥姐弟妹夫妻丈夫妻子儿女孙子女婴儿宝宝聋人听人朋友老师同学医生护士司机警察厨师演员歌手翻译邻居亲戚]/],
+  ['people', /^(我|你|他|她|它|我们|你们|他们|她们|它们|大家|自己|别人|谁)/],
+  ['greet', /^(你好|您好|再见|谢谢|请|对不起|没关系|欢迎|晚安|早上好|中午好|下午好|晚上好|拜托|不好意思|加油|请进|请坐|辛苦|抱歉|原谅)/],
+  ['food', /(饭|菜|面|米|肉|蛋|奶|茶|咖啡|酒|糖|盐|果|瓜|桃|橘|橙|蕉|葡萄|饼|包|饺|糕|汤|粥|饱|饿|渴|吃|喝|尝|辣|酸|甜|咸|苦|鲜)/],
+  ['health', /(病|疼|痛|药|医|院|感冒|发烧|咳嗽|伤|护士|挂号|针|脉|血压|血|住院|体检|残|哑|盲|保健)/],
+  ['action', /(走|跑|跳|坐|站|来|去|回|拿|给|找|等|买|卖|开|关|洗|擦|扫|扔|捡|推|拉|抱|背|提|举|敲|按|写|画|说|讲|问|答|听|看|闻|尝|想|记|忘|睡|起|躺|爬|游|飞|唱|舞|玩|打|踢|教|学|读|借|还|送|接|递|寄|搬|修|做|用|要|给|帮|鼓掌)/],
+  ['mood', /(高兴|快乐|开心|生气|怒|难过|悲伤|哭|愁|急|怕|紧张|满意|喜欢|爱|恨|笑|害羞|尴尬|无聊|感动|可怜|委屈|羡慕|骄傲|后悔|失望|放心)/],
+  ['weather', /(天气|晴|阴|雨|雪|风|雷|电|雾|霜|冰|雹|台风|云|太阳|月亮|星星|热|冷|暖|凉|干|湿|春夏秋冬)/],
+  ['describe', /(大|小|多|少|高|矮|长|短|宽|窄|厚|薄|深|浅|快|慢|新|旧|好|坏|美|丑|胖|瘦|贵|便宜|干净|脏|什么|谁|哪|为什么|怎么|几|颜色|红|黄|蓝|绿|白|黑|紫|粉|灰|棕)/],
+  ['travel', /(车|船|飞机|火车|地铁|公交|路|街|桥|站|票|机场|港口|红绿灯|方向|前后左右)/],
+  ['time', /(今天|明天|昨天|上午|下午|晚上|早上|中午|年|月|日|天|小时|分钟|秒|星期|周|季节|春|夏|秋|冬|现在|过去|以前|以后|刚才|马上|经常|有时候|节日|春节|生日)/],
+  ['things', /(书|笔|纸|包|门|窗|桌|椅|床|灯|伞|碗|杯|勺|筷子|刀|剪|锁|钥匙|表|镜|衣|裤|鞋|帽|袜|被|枕头|手机|电话|电脑|电视|相机|钱|信|礼物)/],
+  ['place', /(学校|教室|图书馆|食堂|办公室|医院|银行|邮局|超市|商店|公园|电影院|公司|工厂|家|家乡|城市|农村|北京|上海|国|省|市|县|馆|所|局|厅|部)/],
+  ['learn', /(课|校|班|级|师|生|考试|作业|毕业|大学|中学|小学|幼儿园|语文|数学|英语|字|词|句|拼音|语法|学习|复习|练习|文化|知识)/]
+]
+
+function classify(word, bmcxCat) {
+  for (const [cat, re] of RULES) if (re.test(word)) return cat
+  return CAT_OF_BMCX[bmcxCat] || 'general'
+}
+
 function steps(desc) {
   return desc
     .replace(/；/g, '。').replace(/。+/g, '。')
@@ -53,49 +52,88 @@ function steps(desc) {
     .map((s) => (s.endsWith('。') ? s : s + '。'))
 }
 
-const pinyin = JSON.parse(read('data-src/pinyin.json'))
-const raw = new Map()
-for (const line of read('data-src/signs-raw.tsv').split('\n')) {
-  const parts = line.split('\t')
-  if (parts.length < 3) continue
-  raw.set(parts[1], { id: parts[0], rest: parts[2] })
-}
+const IMG_DIR = path.join(ROOT, 'public/signs')
+const imgExists = (f) => exists(`public/signs/${f}`)
 
-const usedOverrides = new Set()
-const out = []
-let noImg = 0
+// ---- 精选词条(第一批,带人工钩子与多图) ----
+const pinyinOld = JSON.parse(read('data-src/pinyin.json'))
+const curated = new Map()
 for (const line of read('data-src/vocab-meta.tsv').split('\n')) {
   const line2 = line.trim()
   if (!line2) continue
   const [word, cat, tip = ''] = line2.split('|')
-  const py = pinyin[word]
-  if (!py) { console.error('✗ 缺拼音:', word); continue }
-  const r = raw.get(word)
-  let desc = OVERRIDES[word] || (r ? r.rest.split('|')[0] : '')
-  if (OVERRIDES[word]) usedOverrides.add(word)
-  if (!desc) { console.error('✗ 无描述:', word); continue }
-  // 清理残留
-  desc = desc.replace(/\s+/g, ' ').replace(/\s。/g, '。').trim()
+  const py = pinyinOld[word]
+  curated.set(word, { cat, tip: tip.trim(), pyid: py?.id, pinyin: py?.pinyin })
+}
+const raw1 = new Map()
+for (const line of read('data-src/signs-raw.tsv').split('\n')) {
+  const parts = line.split('\t')
+  if (parts.length < 3) continue
+  raw1.set(parts[1], parts[2])
+}
+
+// ---- 全量爬取数据 ----
+const pinyinFull = JSON.parse(read('data-src/pinyin-full.json'))
+const crawled = new Map() // word → {wid, bmcxCat, desc, img}
+for (const line of read('data-src/bmcx-full.tsv').split('\n')) {
+  const parts = line.split('\t')
+  if (parts.length < 4) continue
+  const [wid, word, bmcxCat, rest] = parts
+  if (crawled.has(word)) continue // 多分类重复词条,保留第一个
+  const [desc, img] = rest.split('|')
+  crawled.set(word, { wid, bmcxCat, desc, img })
+}
+
+// ---- 合并 ----
+const OVERRIDES = JSON.parse(read('data-src/desc-overrides.json'))
+const usedOv = new Set()
+const out = []
+let noImg = 0, noDesc = 0
+
+function push(entry) {
+  if (!entry.imgs.length) noImg++
+  if (!entry.desc.length) noDesc++
+  if (!entry.desc.length && !entry.imgs.length) return
+  out.push(entry)
+}
+
+for (const [word, c] of curated) {
+  const py = pinyinFull[word] || { pinyin: c.pinyin || word, id: c.pyid || word }
+  const r = raw1.get(word)
+  let desc = OVERRIDES[word] ?? (r ? r.split('|')[0] : '')
+  if (OVERRIDES[word]) usedOv.add(word)
   const imgs = []
-  if (r) {
-    const list = r.rest.split('|').slice(1).filter(Boolean)
-    list.forEach((_, i) => imgs.push(i === 0 ? `${py.id}.png` : `${py.id}-${i + 1}.png`))
-  }
-  if (!imgs.length) noImg++
-  out.push({
-    id: py.id,
-    word,
-    pinyin: py.pinyin,
-    cat,
-    desc: steps(desc),
-    tip: tip.trim(),
-    imgs
+  if (r) r.split('|').slice(1).filter(Boolean).forEach((_, i) => imgs.push(i === 0 ? `${py.id}.png` : `${py.id}-${i + 1}.png`))
+  imgs.filter(imgExists)
+  push({
+    id: py.id, word, pinyin: py.pinyin, cat: c.cat,
+    desc: steps(desc.replace(/\s+/g, ' ').trim()),
+    tip: c.tip, imgs
   })
 }
 
-const missed = Object.keys(OVERRIDES).filter((w) => !usedOverrides.has(w))
+for (const [word, e] of crawled) {
+  if (curated.has(word)) continue
+  const py = pinyinFull[word]
+  if (!py) continue
+  let desc = OVERRIDES[word] ?? e.desc
+  if (OVERRIDES[word]) usedOv.add(word)
+  const imgs = []
+  if (e.img && imgExists(`w${e.wid}.png`)) imgs.push(`w${e.wid}.png`)
+  push({
+    id: py.id, word, pinyin: py.pinyin,
+    cat: classify(word, e.bmcxCat),
+    desc: steps(desc.replace(/\s+/g, ' ').trim()),
+    tip: '', imgs
+  })
+}
+
+const missed = Object.keys(OVERRIDES).filter((w) => !usedOv.has(w))
 if (missed.length) console.error('⚠ 覆盖表里有清单外的词:', missed.join('、'))
 
-out.sort((a, b) => (a.cat === b.cat ? a.id.localeCompare(b.id) : 0))
-fs.writeFileSync(path.join(ROOT, 'src/content/vocab.json'), JSON.stringify(out, null, 1))
-console.log(`✓ vocab.json:${out.length} 词,无图 ${noImg} 词`)
+out.sort((a, b) => (a.cat === b.cat ? a.word.localeCompare(b.word, 'zh') : 0))
+fs.writeFileSync(path.join(ROOT, 'src/content/vocab.json'), JSON.stringify(out))
+console.log(`✓ vocab.json:${out.length} 词;无图 ${noImg},无描述 ${noDesc}`)
+const byCat = {}
+for (const v of out) byCat[v.cat] = (byCat[v.cat] || 0) + 1
+console.log(byCat)

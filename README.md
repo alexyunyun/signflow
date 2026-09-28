@@ -7,12 +7,13 @@
 
 ## 功能
 
-- **词汇词典**:274 个日常高频词、13 个分类,每词配打法图解 + 分步骤描述 + 记忆钩子,支持词语/拼音/描述搜索
+- **全量词库**:5200+ 词(覆盖《中国手语》体系完整词典,54 个来源分类归并为 15 个主题),每词配打法文字描述,支持词语/拼音/描述搜索
+- **图解**:部分词配示意图(陆续补充),每词可直达视频教学
 - **学习闪卡**:按分类学新词,先回想再翻面,每日新词量可调
 - **间隔复习(SRS)**:三种题型(看词回忆打法 / 看图猜词 / 看步骤猜词),忘了/模糊/记住了三档评分,按记忆曲线自动排期,忘了的卡当轮重排
 - **日常语句**:10 个场景 39 句常用语,手语语序逐词展开(词库里的词直接内联手势图),附语法提示
 - **AI 助教**(DeepSeek):问任意词句的打法、汉语转手语语序、语法与文化问答、出小测验
-- **权威资料**:官方词典 APP、国家规范 PDF、MOOC 课程直达
+- **权威资料**:官方词典 APP、国家规范 PDF(常用词表/手指字母方案/国歌手语方案)、MOOC 课程直达
 - **进度管理**:localStorage 保存,支持导出/导入 JSON
 
 ## 运行
@@ -43,17 +44,19 @@ URL 加 `?demo=1` 进入演示模式,无需 Key 即可预览交互。
 
 ## 数据维护
 
-词汇数据由脚本生成,改动清单后需要重建:
+词汇数据由脚本生成,全量管道(可断点续传):
 
 ```bash
-# 1. 编辑 data-src/vocab-meta.tsv(词|分类|记忆钩子)
-# 2. 补充拼音
-python3 -c "..."   # 见 data-src/pinyin.json 生成逻辑
-# 3. 重建
-npm run vocab
+python3 scripts/crawl-bmcx.py           # 爬全量词条 → data-src/bmcx-full.tsv
+python3 scripts/crawl-bmcx.py --images  # 下载图解 → public/signs/w{wid}.png
+python3 scripts/gen-pinyin.py           # 生成 data-src/pinyin-full.json
+npm run vocab                           # 合并精选覆盖 → src/content/vocab.json
 ```
 
-`data-src/` 内保留原始抓取数据(signs-raw.tsv:描述与图片来源),`scripts/build-vocab.mjs` 内含人工校订的描述覆盖表。
+- `data-src/vocab-meta.tsv`:人工精选词条(词|分类|记忆钩子),构建时优先采用并保留多图;
+- `data-src/desc-overrides.json`:人工校订的描述覆盖表;
+- 图片来自公开图文库,扩展名为 .png 但内容可能是 PNG/JPEG/WEBP(校验按文件头)。
+
 
 ## 部署说明
 
