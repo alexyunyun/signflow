@@ -1,0 +1,10 @@
+{
+  "name": "SignFlow · 手语学习",
+  "short_name": "SignFlow",
+  "description": "国家通用手语学习:图解词汇 · 日常语句 · 间隔复习 · AI 助教",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FAF6EE",
+  "theme_color": "#F6C445",
+  "icons": [{ "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

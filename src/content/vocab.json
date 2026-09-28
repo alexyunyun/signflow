@@ -1,0 +1,3658 @@
+[
+ {
+  "id": "bai-tuo",
+  "word": "拜托",
+  "pinyin": "bài tuō",
+  "cat": "greet",
+  "desc": [
+   "一手掌心向上,五指并拢,置于同侧肩膀上方,仿托物动作,表示托付、恳求。"
+  ],
+  "tip": "手掌立于肩上,像托付东西",
+  "imgs": [
+   "bai-tuo.png"
+  ]
+ },
+ {
+  "id": "bang-zhu",
+  "word": "帮助",
+  "pinyin": "bāng zhù",
+  "cat": "greet",
+  "desc": [
+   "双手掌心向外，拍动两下，表示给人援助、帮助。"
+  ],
+  "tip": "双手斜伸掌心向外按动,像托人一把",
+  "imgs": [
+   "bang-zhu.png"
+  ]
+ },
+ {
+  "id": "bu-hao-yi-si",
+  "word": "不好意思",
+  "pinyin": "bù hǎo yì sī",
+  "cat": "greet",
+  "desc": [
+   "(一)一手直立,掌心向外,左右摆动几下,表示\"不好\";(二)一手打字母\"Y\"指式,食指在太阳穴处转一圈,表示\"意思\"。"
+  ],
+  "tip": "摆手+\"意思\"手势组合",
+  "imgs": [
+   "bu-hao-yi-si.png",
+   "bu-hao-yi-si-2.png",
+   "bu-hao-yi-si-3.png"
+  ]
+ },
+ {
+  "id": "dui-bu-qi",
+  "word": "对不起",
+  "pinyin": "duì bù qǐ",
+  "cat": "greet",
+  "desc": [
+   "一手五指并拢，举于额际，先做“敬礼”手势，然后下放改伸小指，在胸部点几下，表示向人致歉并自责之意。"
+  ],
+  "tip": "先敬礼式再伸小指点胸口,自责之意",
+  "imgs": [
+   "dui-bu-qi.png"
+  ]
+ },
+ {
+  "id": "huan-ying",
+  "word": "欢迎",
+  "pinyin": "huān yíng",
+  "cat": "greet",
+  "desc": [
+   "（一）双手鼓掌。",
+   "（二）双手掌心向上，往旁移动一下，如邀请动作。"
+  ],
+  "tip": "鼓掌加邀请手势",
+  "imgs": [
+   "huan-ying.png"
+  ]
+ },
+ {
+  "id": "mei-guan-xi",
+  "word": "没关系",
+  "pinyin": "méi guān xì",
+  "cat": "greet",
+  "desc": [
+   "一手拇、食、中指捻动，连续几次。",
+   "两手拇、食指搭成圆圈，互相套环。"
+  ],
+  "tip": "拇食中指捻动,表示\"没事\"",
+  "imgs": [
+   "mei-guan-xi.png",
+   "mei-guan-xi-2.png"
+  ]
+ },
+ {
+  "id": "ni-hao",
+  "word": "你好",
+  "pinyin": "nǐ hǎo",
+  "cat": "greet",
+  "desc": [
+   "一手食指指向对方。",
+   "一手握拳，向上伸出拇指。"
+  ],
+  "tip": "先指对方再竖大拇指,最基础的一句",
+  "imgs": [
+   "ni-hao.png",
+   "ni-hao-2.png"
+  ]
+ },
+ {
+  "id": "qing",
+  "word": "请",
+  "pinyin": "qǐng",
+  "cat": "greet",
+  "desc": [
+   "双手掌心向上，在腰部向旁移，表示邀请之意。"
+  ],
+  "tip": "双手掌心向上向旁移,像请人入座",
+  "imgs": [
+   "qing.png"
+  ]
+ },
+ {
+  "id": "qing-wen",
+  "word": "请问",
+  "pinyin": "qǐng wèn",
+  "cat": "greet",
+  "desc": [
+   "双手掌心向上，在腰部向旁移，表示邀请之意。"
+  ],
+  "tip": "\"请\"的动作+疑问表情",
+  "imgs": [
+   "qing-wen.png"
+  ]
+ },
+ {
+  "id": "wan-an",
+  "word": "晚安",
+  "pinyin": "wǎn ān",
+  "cat": "greet",
+  "desc": [
+   "先打\"晚上\"手势(五指边合拢边下移,天色转暗),再双手合掌贴于脸侧,闭眼作睡觉状。"
+  ],
+  "tip": "\"晚上\"+双手合掌贴脸睡觉",
+  "imgs": []
+ },
+ {
+  "id": "wan-shang-hao",
+  "word": "晚上好",
+  "pinyin": "wǎn shàng hǎo",
+  "cat": "greet",
+  "desc": [
+   "一手四指并拢与拇指成90度直角，放在眼前。",
+   "然后缓慢作弧形下移，同时五指捏合，象征天色由明转暗。",
+   "一手握拳，向上伸出拇指。"
+  ],
+  "tip": "五指边合拢边下移,像天色变暗",
+  "imgs": [
+   "wan-shang-hao.png",
+   "wan-shang-hao-2.png"
+  ]
+ },
+ {
+  "id": "xie-xie",
+  "word": "谢谢",
+  "pinyin": "xiè xiè",
+  "cat": "greet",
+  "desc": [
+   "一手伸出拇指，弯曲两下，表示向人感谢。"
+  ],
+  "tip": "伸拇指弯两下,记得微笑",
+  "imgs": [
+   "xie-xie.png"
+  ]
+ },
+ {
+  "id": "zai-jian",
+  "word": "再见",
+  "pinyin": "zài jiàn",
+  "cat": "greet",
+  "desc": [
+   "一手上举，五指自然伸出，手腕挥动两下。",
+   "这是一般的“再见”手势。"
+  ],
+  "tip": "举手挥腕,国际通用",
+  "imgs": [
+   "zai-jian.png"
+  ]
+ },
+ {
+  "id": "zao-shang-hao",
+  "word": "早上好",
+  "pinyin": "zǎo shàng hǎo",
+  "cat": "greet",
+  "desc": [
+   "一手四指与拇指相捏，手背向上横放胸前，缓缓向上抬起，五指逐渐张开，象征天色由暗转明。",
+   "一手握拳，向上伸出拇指。"
+  ],
+  "tip": "五指从捏到张开,像天色由暗转明",
+  "imgs": [
+   "zao-shang-hao.png",
+   "zao-shang-hao-2.png"
+  ]
+ },
+ {
+  "id": "zhong-wu-hao",
+  "word": "中午好",
+  "pinyin": "zhōng wǔ hǎo",
+  "cat": "greet",
+  "desc": [
+   "打“十”和“二”两个手势，象征时钟是十二点。",
+   "一手握拳，向上伸出拇指。"
+  ],
+  "tip": "\"十二点\"加\"好\"",
+  "imgs": [
+   "zhong-wu-hao.png",
+   "zhong-wu-hao-2.png"
+  ]
+ },
+ {
+  "id": "ba-ba",
+  "word": "爸爸",
+  "pinyin": "bà bà",
+  "cat": "people",
+  "desc": [
+   "一手伸拇指贴在嘴唇上。"
+  ],
+  "tip": "拇指贴嘴唇,传统打法",
+  "imgs": [
+   "ba-ba.png"
+  ]
+ },
+ {
+  "id": "da-jia",
+  "word": "大家",
+  "pinyin": "dà jiā",
+  "cat": "people",
+  "desc": [
+   "一手掌心向下，在胸前平行转一圈。"
+  ],
+  "tip": "掌心向下在胸前转一圈,涵盖所有人",
+  "imgs": [
+   "da-jia.png"
+  ]
+ },
+ {
+  "id": "di-di",
+  "word": "弟弟",
+  "pinyin": "dì di",
+  "cat": "people",
+  "desc": [
+   "一手先以小指贴于嘴唇上，再打“男”手势。"
+  ],
+  "tip": "小指贴嘴唇(排行最小)+“男”手势",
+  "imgs": [
+   "di-di.png"
+  ]
+ },
+ {
+  "id": "er-zi",
+  "word": "儿子",
+  "pinyin": "ér zi",
+  "cat": "people",
+  "desc": [
+   "(一)一手直立,五指并拢,掌心向内,置于头侧,自后向前挥动,即\"男\"手势;(二)一手平伸,掌心向下,于腰际微动,即\"小孩\"手势。"
+  ],
+  "tip": "“男”+“小孩”两个手势组合",
+  "imgs": [
+   "er-zi.png"
+  ]
+ },
+ {
+  "id": "fu-wu-yuan",
+  "word": "服务员",
+  "pinyin": "fú wù yuán",
+  "cat": "people",
+  "desc": [
+   "(一)右手伸平,手背向外,贴于耳前;(二)右手按在另一侧肩部,如招呼侍应。"
+  ],
+  "tip": "手背贴耳前再按肩,像端盘招呼",
+  "imgs": [
+   "fu-wu-yuan.png"
+  ]
+ },
+ {
+  "id": "ge-ge",
+  "word": "哥哥",
+  "pinyin": "gē gē",
+  "cat": "people",
+  "desc": [
+   "一手先伸中指贴于嘴唇上。",
+   "再改伸掌直立，在头侧自后向前挥动，即“男”手势。"
+  ],
+  "tip": "中指贴嘴唇(排行老大)+“男”手势",
+  "imgs": [
+   "ge-ge.png"
+  ]
+ },
+ {
+  "id": "hu-shi",
+  "word": "护士",
+  "pinyin": "hù shì",
+  "cat": "people",
+  "desc": [
+   "（一）一手拇、食指搭成“十”字形，置于前额。",
+   "（二）一手拇、食指捏耳垂。"
+  ],
+  "tip": "“十”字置于额前(医院标志)+捏耳垂",
+  "imgs": [
+   "hu-shi.png"
+  ]
+ },
+ {
+  "id": "jie-jie",
+  "word": "姐姐",
+  "pinyin": "jiě jiě",
+  "cat": "people",
+  "desc": [
+   "一手先伸中指贴于嘴唇上，然后改以拇、食指捏耳垂。"
+  ],
+  "tip": "中指贴嘴唇+捏耳垂(女)",
+  "imgs": [
+   "jie-jie.png"
+  ]
+ },
+ {
+  "id": "lao-shi",
+  "word": "老师",
+  "pinyin": "lǎo shī",
+  "cat": "people",
+  "desc": [
+   "（一）双手五指撮合，指尖相对，在胸前摇动几下，意即“传授”。",
+   "（二）一手伸拇指贴于胸前。"
+  ],
+  "tip": "双手撮合相对摇动(传授)+拇指贴胸(尊称)",
+  "imgs": [
+   "lao-shi.png"
+  ]
+ },
+ {
+  "id": "long-ren",
+  "word": "聋人",
+  "pinyin": "lóng rén",
+  "cat": "people",
+  "desc": [
+   "（一）一手伸食、中指，贴于耳部，表示耳聋。",
+   "（二）双手食指搭成“人”字形。"
+  ],
+  "tip": "先指耳(听不见)再搭\"人\"字",
+  "imgs": [
+   "long-ren.png"
+  ]
+ },
+ {
+  "id": "ma-ma",
+  "word": "妈妈",
+  "pinyin": "mā mā",
+  "cat": "people",
+  "desc": [
+   "一手伸食指贴在嘴唇上。"
+  ],
+  "tip": "食指贴嘴唇,与\"爸爸\"相对",
+  "imgs": [
+   "ma-ma.png"
+  ]
+ },
+ {
+  "id": "mei-mei",
+  "word": "妹妹",
+  "pinyin": "mèi mèi",
+  "cat": "people",
+  "desc": [
+   "(一)一手伸小指贴于嘴唇上,表示排行最小;(二)一手拇、食指捏耳垂,表示\"女\"。"
+  ],
+  "tip": "小指贴嘴唇+捏耳垂(女)",
+  "imgs": [
+   "mei-mei.png"
+  ]
+ },
+ {
+  "id": "ni",
+  "word": "你",
+  "pinyin": "nǐ",
+  "cat": "people",
+  "desc": [
+   "一手食指指向对方。"
+  ],
+  "tip": "食指指向对方",
+  "imgs": [
+   "ni.png"
+  ]
+ },
+ {
+  "id": "ni-men",
+  "word": "你们",
+  "pinyin": "nǐ men",
+  "cat": "people",
+  "desc": [
+   "一手食指先指对方，然后掌心向下，在胸前平行转一圈。"
+  ],
+  "tip": "先指对方,再转一圈",
+  "imgs": [
+   "ni-men.png"
+  ]
+ },
+ {
+  "id": "nv-er",
+  "word": "女儿",
+  "pinyin": "nǚ ér",
+  "cat": "people",
+  "desc": [
+   "(一)一手拇、食指捏耳垂,即\"女\"手势;(二)一手平伸,掌心向下,于腰际微动,即\"小孩\"手势。"
+  ],
+  "tip": "“女”+“小孩”两个手势组合",
+  "imgs": [
+   "nv-er.png"
+  ]
+ },
+ {
+  "id": "peng-you",
+  "word": "朋友",
+  "pinyin": "péng yǒu",
+  "cat": "people",
+  "desc": [
+   "双手伸拇指互碰几下，表示友谊。"
+  ],
+  "tip": "双手拇指互碰,表示友谊",
+  "imgs": [
+   "peng-you.png"
+  ]
+ },
+ {
+  "id": "ren",
+  "word": "人",
+  "pinyin": "rén",
+  "cat": "people",
+  "desc": [
+   "双手食指搭成“人”字形。"
+  ],
+  "tip": "双手食指搭成\"人\"字形",
+  "imgs": [
+   "ren.png"
+  ]
+ },
+ {
+  "id": "si-ji",
+  "word": "司机",
+  "pinyin": "sī jī",
+  "cat": "people",
+  "desc": [
+   "（一）双拳虚握，左右转动，如司机操纵方向盘动作。",
+   "（二）一手拇、食指灭成小圆圈，贴于胸侧。"
+  ],
+  "tip": "双手虚握转方向盘",
+  "imgs": [
+   "si-ji.png"
+  ]
+ },
+ {
+  "id": "ta",
+  "word": "他",
+  "pinyin": "tā",
+  "cat": "people",
+  "desc": [
+   "一手食指指向侧方第三者。"
+  ],
+  "tip": "食指指向旁侧第三人;手语里他/她/它同形",
+  "imgs": [
+   "ta.png"
+  ]
+ },
+ {
+  "id": "tong-xue",
+  "word": "同学",
+  "pinyin": "tóng xué",
+  "cat": "people",
+  "desc": [
+   "(一)双手放于面前,如捧书状;(二)一手食指指向身旁同伴。",
+   "(参考打法)。"
+  ],
+  "tip": "\"学习\"的手势加指示同伴",
+  "imgs": [
+   "tong-xue.png"
+  ]
+ },
+ {
+  "id": "wo",
+  "word": "我",
+  "pinyin": "wǒ",
+  "cat": "people",
+  "desc": [
+   "一手食指指自己。"
+  ],
+  "tip": "食指指自己",
+  "imgs": [
+   "wo.png"
+  ]
+ },
+ {
+  "id": "wo-men",
+  "word": "我们",
+  "pinyin": "wǒ men",
+  "cat": "people",
+  "desc": [
+   "一手食指先指胸部，然后掌心向下，在胸前平行转一圈。"
+  ],
+  "tip": "先指自己,再掌心向下转一圈表示众人",
+  "imgs": [
+   "wo-men.png"
+  ]
+ },
+ {
+  "id": "yi-sheng",
+  "word": "医生",
+  "pinyin": "yī shēng",
+  "cat": "people",
+  "desc": [
+   "（一）一手食、中、无名指按于另一手脉门处，如中医搭脉状。",
+   "（二）一手伸拇指贴于胸前。"
+  ],
+  "tip": "三指搭脉+拇指贴胸",
+  "imgs": [
+   "yi-sheng.png"
+  ]
+ },
+ {
+  "id": "ba",
+  "word": "八",
+  "pinyin": "bā",
+  "cat": "time",
+  "desc": [
+   "一手身出拇、食指，其余三指弯曲。"
+  ],
+  "tip": "伸拇、食指张开,像手枪",
+  "imgs": [
+   "ba.png"
+  ]
+ },
+ {
+  "id": "bai-tian",
+  "word": "白天",
+  "pinyin": "bái tiān",
+  "cat": "time",
+  "desc": [
+   "右手打手指字母“B”指式，贴于左肩部向右移动，同时握拳伸出拇指，表示天色很好，即“白天”。"
+  ],
+  "tip": "\"B\"指式从左肩移向右,天色大好",
+  "imgs": [
+   "bai-tian.png"
+  ]
+ },
+ {
+  "id": "er",
+  "word": "二",
+  "pinyin": "èr",
+  "cat": "time",
+  "desc": [
+   "一手身出食、中指，其余三指弯曲。"
+  ],
+  "tip": "伸食中指",
+  "imgs": [
+   "er.png"
+  ]
+ },
+ {
+  "id": "fen-zhong",
+  "word": "分钟",
+  "pinyin": "fēn zhōng",
+  "cat": "time",
+  "desc": [
+   "（一）一手食指书空“，”一下，表示分的记时符号。",
+   "（二）同“当时”手势（一手伸了拇、食指，拇指尖抵住另一手掌心，食指向下移动，表示钟表的指针转动。",
+   "）。"
+  ],
+  "tip": "\"分\"的符号+时针转动",
+  "imgs": [
+   "fen-zhong.png"
+  ]
+ },
+ {
+  "id": "gang-cai",
+  "word": "刚才",
+  "pinyin": "gāng cái",
+  "cat": "time",
+  "desc": [
+   "（一）一手拇指捏住食指指尖，表示一点点。",
+   "（二）一手伸出拇、食两指，拇指尖抵住另一手掌心，食指向下转动，象征钟表的时针在转动。"
+  ],
+  "tip": "拇食指捏一点点+时针回拨",
+  "imgs": [
+   "gang-cai.png"
+  ]
+ },
+ {
+  "id": "jin-tian",
+  "word": "今天",
+  "pinyin": "jīn tiān",
+  "cat": "time",
+  "desc": [
+   "双手伸掌，掌心向上，横于腰部，上下微动，表示“就是现在”的意思。"
+  ],
+  "tip": "双掌横于腰部上下微动,\"就是现在\"",
+  "imgs": [
+   "jin-tian.png"
+  ]
+ },
+ {
+  "id": "jing-chang",
+  "word": "经常",
+  "pinyin": "jīng cháng",
+  "cat": "time",
+  "desc": [
+   "一手伸食、中指，在太阳穴上轻敲几下，表示“经常”、“常常”。",
+   "所示）。"
+  ],
+  "tip": "食中指在太阳穴轻敲,表示\"常常\"",
+  "imgs": [
+   "jing-chang.png"
+  ]
+ },
+ {
+  "id": "jiu",
+  "word": "九",
+  "pinyin": "jiǔ",
+  "cat": "time",
+  "desc": [
+   "一手食指弯如钩形，其余四指弯曲。"
+  ],
+  "tip": "食指弯成钩形",
+  "imgs": [
+   "jiu.png"
+  ]
+ },
+ {
+  "id": "liu",
+  "word": "六",
+  "pinyin": "liù",
+  "cat": "time",
+  "desc": [
+   "一手身出拇、小指，其余三指弯曲。"
+  ],
+  "tip": "伸拇、小指,像打电话手势",
+  "imgs": [
+   "liu.png"
+  ]
+ },
+ {
+  "id": "ma-shang",
+  "word": "马上",
+  "pinyin": "mǎ shàng",
+  "cat": "time",
+  "desc": [
+   "一手食指直伸，虎口贴近太阳穴，前后微动几下，如马的耳朵。",
+   "一手伸食指向上指。"
+  ],
+  "tip": "食指贴近太阳穴动几下,像马耳朵",
+  "imgs": [
+   "ma-shang.png",
+   "ma-shang-2.png"
+  ]
+ },
+ {
+  "id": "ming-tian",
+  "word": "明天",
+  "pinyin": "míng tiān",
+  "cat": "time",
+  "desc": [
+   "一手伸食指贴于太阳穴部，头微偏。",
+   "然后食指离开，头部转正，表示睡觉过了一天，即“明天”之意（“后天”用两个指头）。"
+  ],
+  "tip": "食指贴太阳穴再离开,像睡一觉醒来",
+  "imgs": [
+   "ming-tian.png"
+  ]
+ },
+ {
+  "id": "nian",
+  "word": "年",
+  "pinyin": "nián",
+  "cat": "time",
+  "desc": [
+   "右手伸食指从左拳的骨节处向下划（拳背四个骨节代表四季，直划下去表示一年）。"
+  ],
+  "tip": "食指沿左拳骨节划下,四节代表四季",
+  "imgs": [
+   "nian.png"
+  ]
+ },
+ {
+  "id": "qi",
+  "word": "七",
+  "pinyin": "qī",
+  "cat": "time",
+  "desc": [
+   "一手拇、食、中指相捏，其余两指弯曲。"
+  ],
+  "tip": "拇、食、中三指相捏",
+  "imgs": [
+   "qi.png"
+  ]
+ },
+ {
+  "id": "san",
+  "word": "三",
+  "pinyin": "sān",
+  "cat": "time",
+  "desc": [
+   "一手身出中、无名、小指，拇、食指弯曲。"
+  ],
+  "tip": "伸中、无名、小指",
+  "imgs": [
+   "san.png"
+  ]
+ },
+ {
+  "id": "shi",
+  "word": "十",
+  "pinyin": "shí",
+  "cat": "time",
+  "desc": [
+   "一手食、中指交叉，其余三指弯曲。"
+  ],
+  "tip": "食中指交叉,或拇指食指搭\"十\"字",
+  "imgs": [
+   "shi.png"
+  ]
+ },
+ {
+  "id": "shi-jian",
+  "word": "时间",
+  "pinyin": "shí jiān",
+  "cat": "time",
+  "desc": [
+   "一手伸出拇、食两指，拇指尖抵住另一手掌心，食指向下转动，象征钟表的时针在转动。"
+  ],
+  "tip": "拇食指抵掌心,食指转动,像时针",
+  "imgs": [
+   "shi-jian.png"
+  ]
+ },
+ {
+  "id": "si",
+  "word": "四",
+  "pinyin": "sì",
+  "cat": "time",
+  "desc": [
+   "一手身出食、中、无名、小指，拇指弯曲。"
+  ],
+  "tip": "伸食、中、无名、小指",
+  "imgs": [
+   "si.png"
+  ]
+ },
+ {
+  "id": "wan-shang",
+  "word": "晚上",
+  "pinyin": "wǎn shàng",
+  "cat": "time",
+  "desc": [
+   "一手四指并拢与拇指成90度直角，放在眼前。",
+   "然后缓慢作弧形下移，同时五指捏合，象征天色由明转暗。"
+  ],
+  "tip": "五指边合拢边做弧形下移,天色渐暗",
+  "imgs": [
+   "wan-shang.png"
+  ]
+ },
+ {
+  "id": "wu",
+  "word": "五",
+  "pinyin": "wǔ",
+  "cat": "time",
+  "desc": [
+   "五指一齐伸出。"
+  ],
+  "tip": "五指全张开",
+  "imgs": [
+   "wu.png"
+  ]
+ },
+ {
+  "id": "xian-zai",
+  "word": "现在",
+  "pinyin": "xiàn zài",
+  "cat": "time",
+  "desc": [
+   "双手伸掌，掌心向上，横于腰部，上下微动，表示“就是现在”的意思。"
+  ],
+  "tip": "与\"今天\"同源,双掌横腰微动",
+  "imgs": [
+   "xian-zai.png"
+  ]
+ },
+ {
+  "id": "xiao-shi",
+  "word": "小时",
+  "pinyin": "xiǎo shí",
+  "cat": "time",
+  "desc": [
+   "（一）一手拇指与小指指尖相捏。",
+   "（二）同“当时”手势（一手伸出拇、食指，拇指尖抵住另一手掌心，食指向下移动，表示钟表的指针转动。",
+   "）。"
+  ],
+  "tip": "\"时辰\"掐指+时针转动",
+  "imgs": [
+   "xiao-shi.png"
+  ]
+ },
+ {
+  "id": "xing-qi",
+  "word": "星期",
+  "pinyin": "xīng qī",
+  "cat": "time",
+  "desc": [
+   "左手食指直立不动。",
+   "右手打“七”手势在左手食指尖上点一下，表示七天即一星期之意（如二个星期，则右手打“七”手势在左手食、中指尖上分别点一下，余类推）。"
+  ],
+  "tip": "\"七\"在食指尖上点一下,七天为一周",
+  "imgs": [
+   "xing-qi.png"
+  ]
+ },
+ {
+  "id": "xing-qi-tian",
+  "word": "星期天",
+  "pinyin": "xīng qī tiān",
+  "cat": "time",
+  "desc": [
+   "左手伸直，指尖向上不动。",
+   "右手伸食指，其余四指握拳，与左手掌互碰（星期二，右手伸两指，星期四，右手伸三指，余类推。",
+   "星期日用“七”手势）。"
+  ],
+  "tip": "右手食指与左掌互碰;周日用\"七\"手势",
+  "imgs": [
+   "xing-qi-tian.png"
+  ]
+ },
+ {
+  "id": "yi",
+  "word": "一",
+  "pinyin": "yī",
+  "cat": "time",
+  "desc": [
+   "一手身出食指，其余四指弯曲。"
+  ],
+  "tip": "伸食指,其余握拢",
+  "imgs": [
+   "yi.png"
+  ]
+ },
+ {
+  "id": "yi-hou",
+  "word": "以后",
+  "pinyin": "yǐ hòu",
+  "cat": "time",
+  "desc": [
+   "一手五指微曲，在腰部向身后搧动几下，表示是以后的但无肯定日数，引申为“以后”的概念。"
+  ],
+  "tip": "手向身后搧,表示以后的日子",
+  "imgs": [
+   "yi-hou.png"
+  ]
+ },
+ {
+  "id": "yi-qian",
+  "word": "以前",
+  "pinyin": "yǐ qián",
+  "cat": "time",
+  "desc": [
+   "一手五指微曲，用手向肩后挥几下，表示是过去的但无肯定日数，引申为“以前”的概念。"
+  ],
+  "tip": "手向肩后挥,表示过去的时光",
+  "imgs": [
+   "yi-qian.png"
+  ]
+ },
+ {
+  "id": "yue",
+  "word": "月",
+  "pinyin": "yuè",
+  "cat": "time",
+  "desc": [
+   "左手食指直立不动，右手食指从左手食指指尖向下划（一个月用一指，二个月用两指，余类推）。"
+  ],
+  "tip": "右手食指从左手食指尖向下划,一指一月",
+  "imgs": [
+   "yue.png"
+  ]
+ },
+ {
+  "id": "zao-shang",
+  "word": "早上",
+  "pinyin": "zǎo shàng",
+  "cat": "time",
+  "desc": [
+   "一手四指与拇指相捏，手背向上横放胸前，缓缓向上抬起，五指逐渐张开，象征天色由暗转明。"
+  ],
+  "tip": "手由捏到张开缓缓上抬,天色渐亮",
+  "imgs": [
+   "zao-shang.png"
+  ]
+ },
+ {
+  "id": "zhong-wu",
+  "word": "中午",
+  "pinyin": "zhōng wǔ",
+  "cat": "time",
+  "desc": [
+   "打“十”和“二”两个手势，象征时钟是十二点。"
+  ],
+  "tip": "打\"十\"\"二\"两个数字,指十二点",
+  "imgs": [
+   "zhong-wu.png"
+  ]
+ },
+ {
+  "id": "zuo-tian",
+  "word": "昨天",
+  "pinyin": "zuó tiān",
+  "cat": "time",
+  "desc": [
+   "一手伸食指指向肩后方点一下，表示过去的一天，即“昨天”（“前天”用两个指头）。"
+  ],
+  "tip": "食指向肩后点,表示过去的一天",
+  "imgs": [
+   "zuo-tian.png"
+  ]
+ },
+ {
+  "id": "ban-gong-shi",
+  "word": "办公室",
+  "pinyin": "bàn gōng shì",
+  "cat": "place",
+  "desc": [
+   "（一）双手互拍手背。",
+   "（二）双手拇、食指搭成“公”字形。",
+   "（三）双手搭成“＾”形。"
+  ],
+  "tip": "拍手背+“公”字+屋顶",
+  "imgs": [
+   "ban-gong-shi.png"
+  ]
+ },
+ {
+  "id": "ce-suo",
+  "word": "厕所",
+  "pinyin": "cè suǒ",
+  "cat": "place",
+  "desc": [
+   "一手拇、食指弯曲，其余三指伸直。"
+  ],
+  "tip": "拇食指弯曲其余伸直,老式打法",
+  "imgs": [
+   "ce-suo.png"
+  ]
+ },
+ {
+  "id": "cheng-shi",
+  "word": "城市",
+  "pinyin": "chéng shì",
+  "cat": "place",
+  "desc": [
+   "（一）（二）双手伸食指，指背向上，指尖相对，作“长城”形向两旁分开，象征城垛。",
+   "（二）手指字母“SH”的指式转一圈。"
+  ],
+  "tip": "食指搭城垛形向两旁开+“市”",
+  "imgs": [
+   "cheng-shi.png"
+  ]
+ },
+ {
+  "id": "dian-ying-yuan",
+  "word": "电影院",
+  "pinyin": "diàn yǐng yuàn",
+  "cat": "place",
+  "desc": [
+   "(一)一手五指张开,掌心向内,在面前摆动几下,即\"电影\";(二)双手搭成\"＾\"形,如屋顶状,表示场所。"
+  ],
+  "tip": "\"电影\"手势+屋顶",
+  "imgs": [
+   "dian-ying-yuan.png"
+  ]
+ },
+ {
+  "id": "fan-guan",
+  "word": "饭馆",
+  "pinyin": "fàn guǎn",
+  "cat": "place",
+  "desc": [
+   "(一)一手拇、食指相对,中间留米粒大小距离,一手伸食、中指如持筷作吃饭状,即\"饭\";(二)双手搭成\"＾\"形,如屋顶状,表示场所。"
+  ],
+  "tip": "\"饭\"的手势+屋顶",
+  "imgs": [
+   "fan-guan.png"
+  ]
+ },
+ {
+  "id": "gong-si",
+  "word": "公司",
+  "pinyin": "gōng sī",
+  "cat": "place",
+  "desc": [
+   "（一）双手拇、食指相搭成“公”字。",
+   "（二）手指字母“S”的指式。"
+  ],
+  "tip": "“公”字+字母S指式",
+  "imgs": [
+   "gong-si.png"
+  ]
+ },
+ {
+  "id": "gong-yuan",
+  "word": "公园",
+  "pinyin": "gōng yuán",
+  "cat": "place",
+  "desc": [
+   "(一)双手拇、食指搭成\"公\"字形;(二)双手拇、食指搭成圆形,表示园地。"
+  ],
+  "tip": "\"公\"字形+双手搭圆(园地)",
+  "imgs": [
+   "gong-yuan.png"
+  ]
+ },
+ {
+  "id": "jia",
+  "word": "家",
+  "pinyin": "jiā",
+  "cat": "place",
+  "desc": [
+   "双手搭成“＾”形，如屋顶状。"
+  ],
+  "tip": "双手搭成屋顶\"＾\"形",
+  "imgs": [
+   "jia.png"
+  ]
+ },
+ {
+  "id": "jia-xiang",
+  "word": "家乡",
+  "pinyin": "jiā xiāng",
+  "cat": "place",
+  "desc": [
+   "双手搭成“＾”形，如屋顶状。",
+   "一手食指书空“乡”字。"
+  ],
+  "tip": "屋顶+\"乡\"的意象,故乡之意",
+  "imgs": [
+   "jia-xiang.png",
+   "jia-xiang-2.png"
+  ]
+ },
+ {
+  "id": "jiao-shi",
+  "word": "教室",
+  "pinyin": "jiào shì",
+  "cat": "place",
+  "desc": [
+   "（一）双手拇指与四指相捏，指尖相对，微动几下。",
+   "（二）双手搭成“＾”形。"
+  ],
+  "tip": "双手捏合微动(讲桌?)+屋顶",
+  "imgs": [
+   "jiao-shi.png"
+  ]
+ },
+ {
+  "id": "nong-cun",
+  "word": "农村",
+  "pinyin": "nóng cūn",
+  "cat": "place",
+  "desc": [
+   "（一）双手五指弯曲，掌心向下，向后波动几下。",
+   "（二）双手相搭成“＾”形，并转一圈。"
+  ],
+  "tip": "五指弯曲波动(庄稼)+“＾”形转一圈",
+  "imgs": [
+   "nong-cun.png"
+  ]
+ },
+ {
+  "id": "shang-dian",
+  "word": "商店",
+  "pinyin": "shāng diàn",
+  "cat": "place",
+  "desc": [
+   "（一）双手掌心向上，在胸前交互转圈子，表示“买卖”之意。",
+   "（二）双手指尖搭成“＾”形。"
+  ],
+  "tip": "双手交互转圈表示买卖+屋顶",
+  "imgs": [
+   "shang-dian.png"
+  ]
+ },
+ {
+  "id": "shi-tang",
+  "word": "食堂",
+  "pinyin": "shí táng",
+  "cat": "place",
+  "desc": [
+   "（一）一手伸食、中指在口边划动，如用筷子吃饭状。",
+   "（二）双手搭成“＾”形，如屋顶状。"
+  ],
+  "tip": "拿筷子吃饭+屋顶",
+  "imgs": [
+   "shi-tang.png"
+  ]
+ },
+ {
+  "id": "tu-shu-guan",
+  "word": "图书馆",
+  "pinyin": "tú shū guǎn",
+  "cat": "place",
+  "desc": [
+   "（一）一手食、中指伸直并拢，先贴于另一手掌心，然后向外翻转，如翻书状。",
+   "（二）双手搭成“＾”形。"
+  ],
+  "tip": "翻书状+屋顶",
+  "imgs": [
+   "tu-shu-guan.png"
+  ]
+ },
+ {
+  "id": "xue-xiao",
+  "word": "学校",
+  "pinyin": "xué xiào",
+  "cat": "place",
+  "desc": [
+   "（一）双手放于面前，如读书状。",
+   "（二）双手搭成“＾”形。"
+  ],
+  "tip": "读书状+屋顶\"＾\"形",
+  "imgs": [
+   "xue-xiao.png"
+  ]
+ },
+ {
+  "id": "yao-dian",
+  "word": "药店",
+  "pinyin": "yào diàn",
+  "cat": "place",
+  "desc": [
+   "连打字母\"Y\"\"O\"指式,即\"药\";双手搭成\"＾\"形,如屋顶状,表示场所。"
+  ],
+  "tip": "字母Y、O指式+屋顶",
+  "imgs": [
+   "yao-dian.png"
+  ]
+ },
+ {
+  "id": "yi-yuan",
+  "word": "医院",
+  "pinyin": "yī yuàn",
+  "cat": "place",
+  "desc": [
+   "（一）一手拇、食指搭成“十”字形置于前额。",
+   "（二）双手搭成“＾”形。"
+  ],
+  "tip": "\"十\"字置于额前+屋顶",
+  "imgs": [
+   "yi-yuan.png"
+  ]
+ },
+ {
+  "id": "yin-hang",
+  "word": "银行",
+  "pinyin": "yín háng",
+  "cat": "place",
+  "desc": [
+   "（一）双手拇、食指捏成圆形，一前一后交替移动,表示银钱进出。",
+   "（二）双手指尖搭成“＾”形。"
+  ],
+  "tip": "双手捏圆交替移动(银钱进出)+屋顶",
+  "imgs": [
+   "yin-hang.png"
+  ]
+ },
+ {
+  "id": "you-ju",
+  "word": "邮局",
+  "pinyin": "yóu jú",
+  "cat": "place",
+  "desc": [
+   "（一）一手食、中指并拢，在另一手掌心上轻拍一下，象征贴邮票。",
+   "（二）双手搭成“＾”形。"
+  ],
+  "tip": "掌心贴邮票动作+屋顶",
+  "imgs": [
+   "you-ju.png"
+  ]
+ },
+ {
+  "id": "zhong-guo",
+  "word": "中国",
+  "pinyin": "zhōng guó",
+  "cat": "place",
+  "desc": [
+   "一手伸食指,自咽喉部顺肩胸划至腰间,沿旗袍前襟线示意。"
+  ],
+  "tip": "食指沿旗袍前襟划下,国服的意象",
+  "imgs": []
+ },
+ {
+  "id": "bao",
+  "word": "饱",
+  "pinyin": "bǎo",
+  "cat": "food",
+  "desc": [
+   "一手掌心贴于腹部轻拍两下,面露满足神情。"
+  ],
+  "tip": "拍拍肚子,面露满足",
+  "imgs": [
+   "bao.png"
+  ]
+ },
+ {
+  "id": "cha",
+  "word": "茶",
+  "pinyin": "chá",
+  "cat": "food",
+  "desc": [
+   "一手五指虚握成半圆形，虎口向上。",
+   "另一手拇、食、中指撮合，向半圆形中一甩，如向杯中放茶叶状。"
+  ],
+  "tip": "虚握杯子+撮指撒茶叶",
+  "imgs": [
+   "cha.png"
+  ]
+ },
+ {
+  "id": "chi",
+  "word": "吃",
+  "pinyin": "chī",
+  "cat": "food",
+  "desc": [
+   "一手伸食、中指，由外向嘴边拨动，模拟用筷子吃饭状。"
+  ],
+  "tip": "食中指如拿筷子拨向嘴边",
+  "imgs": [
+   "chi.png"
+  ]
+ },
+ {
+  "id": "e",
+  "word": "饿",
+  "pinyin": "è",
+  "cat": "food",
+  "desc": [
+   "一手捂于胃部，上身微前倾，脸部显出饥饿的神态。"
+  ],
+  "tip": "捂胃部,身体前倾,面露饥饿",
+  "imgs": [
+   "e.png"
+  ]
+ },
+ {
+  "id": "he",
+  "word": "喝",
+  "pinyin": "hē",
+  "cat": "food",
+  "desc": [
+   "一手五指虚握，如拿杯子状，然后放在嘴边作喝水状。"
+  ],
+  "tip": "五指虚握如持杯,放嘴边",
+  "imgs": [
+   "he.png"
+  ]
+ },
+ {
+  "id": "ji-dan",
+  "word": "鸡蛋",
+  "pinyin": "jī dàn",
+  "cat": "food",
+  "desc": [
+   "一手拇、食指捏成尖形，手背贴于嘴上，指尖开合几下，表示鸡的嘴。",
+   "双手拇、食指搭成椭圆形，然后作打蛋动作。"
+  ],
+  "tip": "捏鸡嘴+双手搭椭圆打蛋",
+  "imgs": [
+   "ji-dan.png",
+   "ji-dan-2.png"
+  ]
+ },
+ {
+  "id": "ka-fei",
+  "word": "咖啡",
+  "pinyin": "kā fēi",
+  "cat": "food",
+  "desc": [
+   "左手五指虚握成拿杯状。",
+   "右手指字母“K”的指式，中指对准左手虎口，做搅拌动作。"
+  ],
+  "tip": "左手持杯+字母K指式搅拌",
+  "imgs": [
+   "ka-fei.png"
+  ]
+ },
+ {
+  "id": "ke",
+  "word": "渴",
+  "pinyin": "kě",
+  "cat": "food",
+  "desc": [
+   "一手五指虚握如持杯,伸向嘴边作饮水状,面露干渴神情。"
+  ],
+  "tip": "持杯状伸向嘴边,面露干渴",
+  "imgs": []
+ },
+ {
+  "id": "la",
+  "word": "辣",
+  "pinyin": "là",
+  "cat": "food",
+  "desc": [
+   "一手五指并拢，指尖对着嘴部，然后手指向前张开，嘴微动，脸露辛辣状。"
+  ],
+  "tip": "五指并拢对嘴,突然张开,辣得张嘴",
+  "imgs": [
+   "la.png"
+  ]
+ },
+ {
+  "id": "mi-fan",
+  "word": "米饭",
+  "pinyin": "mǐ fàn",
+  "cat": "food",
+  "desc": [
+   "（一）一手拇、食指相对，中间留有米粒大小距离。",
+   "（二）一手伸食、中指象征筷子，作吃饭动作。"
+  ],
+  "tip": "捏米粒+拿筷子吃饭",
+  "imgs": [
+   "mi-fan.png"
+  ]
+ },
+ {
+  "id": "mian-tiao",
+  "word": "面条",
+  "pinyin": "miàn tiáo",
+  "cat": "food",
+  "desc": [
+   "（一）手指字母“M”的指式。",
+   "（二）一手伸食、中指，由胸部向嘴边提，如用筷子夹吃面条状。"
+  ],
+  "tip": "字母M+筷子夹面条上提",
+  "imgs": [
+   "mian-tiao.png"
+  ]
+ },
+ {
+  "id": "niu-nai",
+  "word": "牛奶",
+  "pinyin": "niú nǎi",
+  "cat": "food",
+  "desc": [
+   "（一）一手伸拇、小指，拇指指尖抵于太阳穴上，象征牛角。",
+   "（二）一手五指微曲，在胸侧作挤奶状。"
+  ],
+  "tip": "拇小指抵太阳穴(牛角)+挤奶动作",
+  "imgs": [
+   "niu-nai.png"
+  ]
+ },
+ {
+  "id": "pi-jiu",
+  "word": "啤酒",
+  "pinyin": "pí jiǔ",
+  "cat": "food",
+  "desc": [
+   "（一）手指字母“P”的指式。",
+   "（二）一手打手指字母“J”的指式放在嘴边，作喝酒状。"
+  ],
+  "tip": "字母P指式+字母J指式放嘴边喝",
+  "imgs": [
+   "pi-jiu.png"
+  ]
+ },
+ {
+  "id": "ping-guo",
+  "word": "苹果",
+  "pinyin": "píng guǒ",
+  "cat": "food",
+  "desc": [
+   "（一）双手并排，掌心向下，向两边平行拉开。",
+   "（二）双手拇、食指搭成圆形，如苹果大小。"
+  ],
+  "tip": "双手平拉+搭圆如苹果大小",
+  "imgs": [
+   "ping-guo.png"
+  ]
+ },
+ {
+  "id": "rou",
+  "word": "肉",
+  "pinyin": "ròu",
+  "cat": "food",
+  "desc": [
+   "一手拇、食指捏另一手小鱼际的部位。"
+  ],
+  "tip": "拇指食指捏小鱼际,像捏肉",
+  "imgs": [
+   "rou.png"
+  ]
+ },
+ {
+  "id": "shu-cai",
+  "word": "蔬菜",
+  "pinyin": "shū cài",
+  "cat": "food",
+  "desc": [
+   "双手五指撮合，指尖向上。",
+   "向上伸出，同时放开五指。"
+  ],
+  "tip": "双手撮合向上伸出张开,像菜冒芽",
+  "imgs": [
+   "shu-cai.png"
+  ]
+ },
+ {
+  "id": "shui-guo",
+  "word": "水果",
+  "pinyin": "shuǐ guǒ",
+  "cat": "food",
+  "desc": [
+   "（一）一手平伸，掌心向下，向旁作波纹状移动，即“水”手势。",
+   "（二）双手拇、食指搭成圆形。"
+  ],
+  "tip": "\"水\"波纹+双手搭圆(果子)",
+  "imgs": [
+   "shui-guo.png"
+  ]
+ },
+ {
+  "id": "suan",
+  "word": "酸",
+  "pinyin": "suān",
+  "cat": "food",
+  "desc": [
+   "一手拇、食指相捏，放于口边，两腮向内缩，模拟尝到酸状。"
+  ],
+  "tip": "捏指放口边,两腮内缩",
+  "imgs": [
+   "suan.png"
+  ]
+ },
+ {
+  "id": "tang",
+  "word": "汤",
+  "pinyin": "tāng",
+  "cat": "food",
+  "desc": [
+   "一手拇、食指相捏，如持汤匙送向口边，作喝汤状。"
+  ],
+  "tip": "拇食指捏汤匙送向口边",
+  "imgs": [
+   "tang.png"
+  ]
+ },
+ {
+  "id": "tian",
+  "word": "甜",
+  "pinyin": "tián",
+  "cat": "food",
+  "desc": [
+   "一手食指点两下臌起的腮部，与“糖”的手势相同。"
+  ],
+  "tip": "食指点两下鼓起的腮帮,像含着糖",
+  "imgs": [
+   "tian.png"
+  ]
+ },
+ {
+  "id": "xian",
+  "word": "咸",
+  "pinyin": "xián",
+  "cat": "food",
+  "desc": [
+   "一手打手指字母“X”的指式，并在嘴前上下微动，脸上流露出尝到咸味的表情。",
+   "与“盐”的手势相同。"
+  ],
+  "tip": "字母X指式在嘴前微动,皱眉",
+  "imgs": [
+   "xian.png"
+  ]
+ },
+ {
+  "id": "chang-ge",
+  "word": "唱歌",
+  "pinyin": "chàng gē",
+  "cat": "action",
+  "desc": [
+   "双手伸拇、食指,食指尖对着喉部,同时向外移出两下,口张开,头随之轻晃。"
+  ],
+  "tip": "双手拇食指尖对喉部向外移,摇头晃脑",
+  "imgs": [
+   "chang-ge.png"
+  ]
+ },
+ {
+  "id": "da-sao",
+  "word": "打扫",
+  "pinyin": "dǎ sǎo",
+  "cat": "action",
+  "desc": [
+   "(一)一手握拳向下击打一下;(二)另一手五指并拢,掌心向外,左右扫动,如扫地状。"
+  ],
+  "tip": "\"打\"一下+手掌左右扫动,如扫地",
+  "imgs": [
+   "da-sao.png"
+  ]
+ },
+ {
+  "id": "deng",
+  "word": "等",
+  "pinyin": "děng",
+  "cat": "action",
+  "desc": [
+   "一手背贴于颏下，表示张望、等候之意。"
+  ],
+  "tip": "手背贴于颏下,翘首张望等候",
+  "imgs": [
+   "deng.png"
+  ]
+ },
+ {
+  "id": "dian-hua",
+  "word": "电话",
+  "pinyin": "diàn huà",
+  "cat": "action",
+  "desc": [
+   "一手伸拇、小指，拇指置于耳边，小指置于口边如大电话状。"
+  ],
+  "tip": "拇小指伸开贴耳和嘴边,像拿手机",
+  "imgs": [
+   "dian-hua.png"
+  ]
+ },
+ {
+  "id": "dian-nao",
+  "word": "电脑",
+  "pinyin": "diàn nǎo",
+  "cat": "action",
+  "desc": [
+   "（一）一手食指书空“闪电”形。",
+   "（二）一手食指点一下太阳穴处。"
+  ],
+  "tip": "书空\"电\"字+点太阳穴(脑)",
+  "imgs": [
+   "dian-nao.png"
+  ]
+ },
+ {
+  "id": "dian-shi",
+  "word": "电视",
+  "pinyin": "diàn shì",
+  "cat": "action",
+  "desc": [
+   "（一） 一手五指张开，掌心向内，在面前摆动几下，象征屏幕上画面的不断交换。",
+   "（二）双手食指空书“┌┐”形，如电视机外形。"
+  ],
+  "tip": "画面摆动+双手书空电视机外形",
+  "imgs": [
+   "dian-shi.png"
+  ]
+ },
+ {
+  "id": "dian-ying",
+  "word": "电影",
+  "pinyin": "diàn yǐng",
+  "cat": "action",
+  "desc": [
+   "一手五指张开，掌心向内，在前面摆动几下。"
+  ],
+  "tip": "五指张开掌心向内在面前摆动,像画面闪过",
+  "imgs": [
+   "dian-ying.png"
+  ]
+ },
+ {
+  "id": "fu-xi",
+  "word": "复习",
+  "pinyin": "fù xí",
+  "cat": "action",
+  "desc": [
+   "（一）双手掌心上下相贴，下面的手不动，上面的手翻转一下，手背贴于掌心。",
+   "（二）一手五指撮合，按于前额。"
+  ],
+  "tip": "翻掌再贴+撮指按额,温故知新",
+  "imgs": [
+   "fu-xi.png"
+  ]
+ },
+ {
+  "id": "gei",
+  "word": "给",
+  "pinyin": "gěi",
+  "cat": "action",
+  "desc": [
+   "一手五指虚握，掌心向上，向外伸出，张开手掌，如把物品归还给别人。"
+  ],
+  "tip": "五指虚握向外伸出张开,把东西给人",
+  "imgs": [
+   "gei.png"
+  ]
+ },
+ {
+  "id": "guan",
+  "word": "关",
+  "pinyin": "guān",
+  "cat": "action",
+  "desc": [
+   "双手伸掌，掌心向内，然后向外翻掌，双手并拢，掌心向外。"
+  ],
+  "tip": "双掌向外翻并并拢,像关门",
+  "imgs": [
+   "guan.png"
+  ]
+ },
+ {
+  "id": "hui",
+  "word": "会",
+  "pinyin": "huì",
+  "cat": "action",
+  "desc": [
+   "一手食指直立,指背向外,手腕向下弯动一下,表示能够。"
+  ],
+  "tip": "食指直立手腕下弯,表示能够做到",
+  "imgs": []
+ },
+ {
+  "id": "jian-mian",
+  "word": "见面",
+  "pinyin": "jiàn miàn",
+  "cat": "action",
+  "desc": [
+   "两手各伸出拇、小指，由两旁向中间靠近，象征两个人会见。"
+  ],
+  "tip": "双手拇小指相对靠拢,两个人碰头了",
+  "imgs": [
+   "jian-mian.png"
+  ]
+ },
+ {
+  "id": "jie-shu",
+  "word": "结束",
+  "pinyin": "jié shù",
+  "cat": "action",
+  "desc": [
+   "一手拇指与四指相对，逐渐并拢，再向下一甩，表示“完了”、“好了”。"
+  ],
+  "tip": "拇指向四指并拢再向下一甩,\"完了\"",
+  "imgs": [
+   "jie-shu.png"
+  ]
+ },
+ {
+  "id": "kai",
+  "word": "开",
+  "pinyin": "kāi",
+  "cat": "action",
+  "desc": [
+   "双手并排，掌心向外，然后向内翻掌并拉开，掌心向内。"
+  ],
+  "tip": "双掌向内翻并拉开,像开门",
+  "imgs": [
+   "kai.png"
+  ]
+ },
+ {
+  "id": "kai-shi",
+  "word": "开始",
+  "pinyin": "kāi shǐ",
+  "cat": "action",
+  "desc": [
+   "（一）双手竖立靠拢，掌心向外，然后作“开门”状。",
+   "（二）一手食指打一下另一手拇指。"
+  ],
+  "tip": "双手竖立靠拢再作开门状,启动了",
+  "imgs": [
+   "kai-shi.png"
+  ]
+ },
+ {
+  "id": "kan",
+  "word": "看",
+  "pinyin": "kàn",
+  "cat": "action",
+  "desc": [
+   "一手伸食、中指，从眼部向前微伸一下。"
+  ],
+  "tip": "食中指从眼部向前一指,目光所至",
+  "imgs": [
+   "kan.png"
+  ]
+ },
+ {
+  "id": "kao-shi",
+  "word": "考试",
+  "pinyin": "kǎo shì",
+  "cat": "action",
+  "desc": [
+   "（一）双手伸拇指，交替上下动，表示比较、比试。",
+   "（二）一手食、中指指尖指着双眼，交替微动。"
+  ],
+  "tip": "双拇指交替上下(比试)+食中指指双眼(看卷子)",
+  "imgs": [
+   "kao-shi.png"
+  ]
+ },
+ {
+  "id": "lai",
+  "word": "来",
+  "pinyin": "lái",
+  "cat": "action",
+  "desc": [
+   "一手掌心向下，由外向内挥动。"
+  ],
+  "tip": "掌心向下,由外向内挥,招呼人过来",
+  "imgs": [
+   "lai.png"
+  ]
+ },
+ {
+  "id": "lian-xi",
+  "word": "练习",
+  "pinyin": "liàn xí",
+  "cat": "action",
+  "desc": [
+   "（一）双手掌心上下相贴，下面的手不动，上面的手翻转一下，手背贴于掌心。",
+   "（二）一手五指撮合，按于前额。"
+  ],
+  "tip": "与\"复习\"打法相同",
+  "imgs": [
+   "lian-xi.png"
+  ]
+ },
+ {
+  "id": "liao-tian",
+  "word": "聊天",
+  "pinyin": "liáo tiān",
+  "cat": "action",
+  "desc": [
+   "（一）双手伸直，掌心相对，在嘴边前后交替移动。",
+   "（二）一手伸食指，指尖朝上，从一侧向另一侧连续点动几下。"
+  ],
+  "tip": "双手在嘴边交替移动+食指点动,你说我说",
+  "imgs": [
+   "liao-tian.png"
+  ]
+ },
+ {
+  "id": "lv-you",
+  "word": "旅游",
+  "pinyin": "lǚ yóu",
+  "cat": "action",
+  "desc": [
+   "（一）一手伸出拇、小指转动两圈。",
+   "（二）一手掌心向内，在眼前转一圈。"
+  ],
+  "tip": "拇小指转两圈(走路)+眼前转一圈(看风景)",
+  "imgs": [
+   "lv-you.png"
+  ]
+ },
+ {
+  "id": "mai",
+  "word": "买",
+  "pinyin": "mǎi",
+  "cat": "action",
+  "desc": [
+   "双手平伸，手心向上，一手在另一手掌心上拍打一下，然后向里移，表示买进东西。"
+  ],
+  "tip": "拍对方掌心后向里移,东西买进来",
+  "imgs": [
+   "mai.png"
+  ]
+ },
+ {
+  "id": "mai",
+  "word": "卖",
+  "pinyin": "mài",
+  "cat": "action",
+  "desc": [
+   "双手平伸，手心向上，一手在另一手掌心上拍打一下，然后向外移，表示卖出东西。"
+  ],
+  "tip": "拍掌心后向外移,东西卖出去",
+  "imgs": [
+   "mai.png"
+  ]
+ },
+ {
+  "id": "mei-you",
+  "word": "没有",
+  "pinyin": "méi yǒu",
+  "cat": "action",
+  "desc": [
+   "一手拇、食、中指捻动，连续几次。"
+  ],
+  "tip": "拇食中指捻动几次,一点都没了",
+  "imgs": [
+   "mei-you.png"
+  ]
+ },
+ {
+  "id": "ming-bai",
+  "word": "明白",
+  "pinyin": "míng bái",
+  "cat": "action",
+  "desc": [
+   "一手五指撮合，向上作弧形移动，同时张开五指。",
+   "一手从另一手背上划过，并打出手指字母“B”的指式。"
+  ],
+  "tip": "五指撮合上移张开,恍然大悟",
+  "imgs": [
+   "ming-bai.png",
+   "ming-bai-2.png"
+  ]
+ },
+ {
+  "id": "na",
+  "word": "拿",
+  "pinyin": "ná",
+  "cat": "action",
+  "desc": [
+   "一手向下微抓，如拿物状，然后向上提起。"
+  ],
+  "tip": "向下虚抓再提起",
+  "imgs": [
+   "na.png"
+  ]
+ },
+ {
+  "id": "pao",
+  "word": "跑",
+  "pinyin": "pǎo",
+  "cat": "action",
+  "desc": [
+   "两手握拳放于腰两侧，并前后摆动。"
+  ],
+  "tip": "双拳放腰侧前后摆动",
+  "imgs": [
+   "pao.png"
+  ]
+ },
+ {
+  "id": "qi-chuang",
+  "word": "起床",
+  "pinyin": "qǐ chuáng",
+  "cat": "action",
+  "desc": [
+   "一手伸拇、小指，先“躺”在另一手掌心中，再“立”起来，表示“起身”。"
+  ],
+  "tip": "拇小指先\"躺\"在掌心再\"立\"起来",
+  "imgs": [
+   "qi-chuang.png"
+  ]
+ },
+ {
+  "id": "qu",
+  "word": "去",
+  "pinyin": "qù",
+  "cat": "action",
+  "desc": [
+   "一手拇、小指伸直，由内向外移动。"
+  ],
+  "tip": "伸拇小指,由内向外移,人走了",
+  "imgs": [
+   "qu.png"
+  ]
+ },
+ {
+  "id": "shou-ji",
+  "word": "手机",
+  "pinyin": "shǒu jī",
+  "cat": "action",
+  "desc": [
+   "一手五指微曲如持手机,置于眼前,另一手食指在\"屏幕\"上点划两下。",
+   "(参考打法)。"
+  ],
+  "tip": "手持手机点屏幕",
+  "imgs": []
+ },
+ {
+  "id": "shou-yu",
+  "word": "手语",
+  "pinyin": "shǒu yǔ",
+  "cat": "action",
+  "desc": [
+   "双手五指微曲，交替上下舞动，手指灵活曲伸，如打手势动作。"
+  ],
+  "tip": "双手五指灵活舞动,像打手势;也引申为\"聊天\"",
+  "imgs": [
+   "shou-yu.png"
+  ]
+ },
+ {
+  "id": "shui-jiao",
+  "word": "睡觉",
+  "pinyin": "shuì jiào",
+  "cat": "action",
+  "desc": [
+   "一手掌心捂于头侧，头微倾，闭眼，如睡觉状。"
+  ],
+  "tip": "掌心捂头侧,头微倾闭眼",
+  "imgs": [
+   "shui-jiao.png"
+  ]
+ },
+ {
+  "id": "shuo",
+  "word": "说",
+  "pinyin": "shuō",
+  "cat": "action",
+  "desc": [
+   "一手食指横于嘴前转动几下，表示说话。"
+  ],
+  "tip": "食指横于嘴前转动,表示说话",
+  "imgs": [
+   "shuo.png"
+  ]
+ },
+ {
+  "id": "tiao-wu",
+  "word": "跳舞",
+  "pinyin": "tiào wǔ",
+  "cat": "action",
+  "desc": [
+   "左手平伸，掌心向上，右手伸食、中指，指尖分开微曲，先立于左掌心上，然后迅速向上提起。"
+  ],
+  "tip": "食中指立在掌心迅速提起,像踮脚旋转",
+  "imgs": [
+   "tiao-wu.png"
+  ]
+ },
+ {
+  "id": "ting",
+  "word": "听",
+  "pinyin": "tīng",
+  "cat": "action",
+  "desc": [
+   "一手贴于耳部，表示在听。"
+  ],
+  "tip": "手贴于耳部,表示倾听",
+  "imgs": [
+   "ting.png"
+  ]
+ },
+ {
+  "id": "wang-ji",
+  "word": "忘记",
+  "pinyin": "wàng jì",
+  "cat": "action",
+  "desc": [
+   "一手五指并拢，现在前额虚按一下，再转向脑后虚按一下，表示把原记住的事情丢在脑后。"
+  ],
+  "tip": "五指并拢前额虚按再转向脑后,丢在脑后",
+  "imgs": [
+   "wang-ji.png"
+  ]
+ },
+ {
+  "id": "wen",
+  "word": "问",
+  "pinyin": "wèn",
+  "cat": "action",
+  "desc": [
+   "一手食指横于嘴前移动一下,再向前伸出,面露疑问神情。"
+  ],
+  "tip": "食指在嘴前移动再向前伸,面露疑问",
+  "imgs": []
+ },
+ {
+  "id": "xi",
+  "word": "洗",
+  "pinyin": "xǐ",
+  "cat": "action",
+  "desc": [
+   "模拟洗的具体动作。"
+  ],
+  "tip": "模仿洗的具体动作",
+  "imgs": [
+   "xi.png"
+  ]
+ },
+ {
+  "id": "xi-zao",
+  "word": "洗澡",
+  "pinyin": "xǐ zǎo",
+  "cat": "action",
+  "desc": [
+   "双手五指分开，掌心贴于胸部，上下交替擦动，如洗澡动作。"
+  ],
+  "tip": "双手五指贴胸上下交替擦动",
+  "imgs": [
+   "xi-zao.png"
+  ]
+ },
+ {
+  "id": "xiang",
+  "word": "想",
+  "pinyin": "xiǎng",
+  "cat": "action",
+  "desc": [
+   "一手食指置太阳穴处转动，显示动脑思索的神情。"
+  ],
+  "tip": "食指在太阳穴转动,动脑思索",
+  "imgs": [
+   "xiang.png"
+  ]
+ },
+ {
+  "id": "xie",
+  "word": "写",
+  "pinyin": "xiě",
+  "cat": "action",
+  "desc": [
+   "一手拇、食、中指如执笔,在另一手掌心或空中书写。"
+  ],
+  "tip": "三指执笔,在掌心或空中书写",
+  "imgs": []
+ },
+ {
+  "id": "xiu-xi",
+  "word": "休息",
+  "pinyin": "xiū xī",
+  "cat": "action",
+  "desc": [
+   "双手交叉贴于胸前，表示休息之意。"
+  ],
+  "tip": "双手交叉贴于胸前",
+  "imgs": [
+   "xiu-xi.png"
+  ]
+ },
+ {
+  "id": "xue-xi",
+  "word": "学习",
+  "pinyin": "xué xí",
+  "cat": "action",
+  "desc": [
+   "（一）双手放于面前，如读书状。",
+   "（二）一手五指撮合，按于前额。"
+  ],
+  "tip": "双手面前如翻书+五指撮合按前额(记心里)",
+  "imgs": [
+   "xue-xi.png"
+  ]
+ },
+ {
+  "id": "yao",
+  "word": "要",
+  "pinyin": "yào",
+  "cat": "action",
+  "desc": [
+   "一手平伸，掌心向上，由外向里微微拉动。"
+  ],
+  "tip": "掌心向上由外向里拉,把东西要过来",
+  "imgs": [
+   "yao.png"
+  ]
+ },
+ {
+  "id": "yong",
+  "word": "用",
+  "pinyin": "yòng",
+  "cat": "action",
+  "desc": [
+   "一手向前伸出小臂，五指先张开，然后从前向后微移，并收拢五指，表示从外界得到所需物品。",
+   "以此引申为“用”“使用”之意。"
+  ],
+  "tip": "手臂前伸张五指再收拢,取物而用",
+  "imgs": [
+   "yong.png"
+  ]
+ },
+ {
+  "id": "you",
+  "word": "有",
+  "pinyin": "yǒu",
+  "cat": "action",
+  "desc": [
+   "一手拇、食指伸直，拇指不动，食指弯动几下。"
+  ],
+  "tip": "拇食指伸直,食指弯动几下",
+  "imgs": [
+   "you.png"
+  ]
+ },
+ {
+  "id": "you-xi",
+  "word": "游戏",
+  "pinyin": "yóu xì",
+  "cat": "action",
+  "desc": [
+   "双手伸出拇、小指，交替转动。"
+  ],
+  "tip": "双拇小指交替转动,玩起来了",
+  "imgs": [
+   "you-xi.png"
+  ]
+ },
+ {
+  "id": "you-yong",
+  "word": "游泳",
+  "pinyin": "yóu yǒng",
+  "cat": "action",
+  "desc": [
+   "双手微曲，两臂同时向前伸出、划动，如游泳动作。"
+  ],
+  "tip": "双臂前伸划动,像蛙泳",
+  "imgs": [
+   "you-yong.png"
+  ]
+ },
+ {
+  "id": "yun-dong",
+  "word": "运动",
+  "pinyin": "yùn dòng",
+  "cat": "action",
+  "desc": [
+   "双手握拳，在身侧交替摆动，如跑步动作。"
+  ],
+  "tip": "双拳在身侧交替摆动",
+  "imgs": [
+   "yun-dong.png"
+  ]
+ },
+ {
+  "id": "zhan",
+  "word": "站",
+  "pinyin": "zhàn",
+  "cat": "action",
+  "desc": [
+   "一手伸食、中指，指尖向下伸直，抵于另一手掌心上。"
+  ],
+  "tip": "食中指指尖向下,抵在另一掌心上",
+  "imgs": [
+   "zhan.png"
+  ]
+ },
+ {
+  "id": "zhao",
+  "word": "找",
+  "pinyin": "zhǎo",
+  "cat": "action",
+  "desc": [
+   "一手食指直立,在眼前左右转动,如四处寻找。"
+  ],
+  "tip": "食指在眼前左右转动,四处寻找",
+  "imgs": []
+ },
+ {
+  "id": "zhao-pian",
+  "word": "照片",
+  "pinyin": "zhào piān",
+  "cat": "action",
+  "desc": [
+   "（一）双手食指弯曲，如持摄影机，放于眼前。",
+   "一手食指向下按一下，如按摄影机快门动作。",
+   "（二）双手拇、食指搭成长方形，向两旁微移。"
+  ],
+  "tip": "拇指食指弯曲如持相机拍照",
+  "imgs": [
+   "zhao-pian.png"
+  ]
+ },
+ {
+  "id": "zhi-dao",
+  "word": "知道",
+  "pinyin": "zhī dào",
+  "cat": "action",
+  "desc": [
+   "一手食指直立，指尖朝太阳穴处敲两下。"
+  ],
+  "tip": "食指在太阳穴处敲两下,心里有数",
+  "imgs": [
+   "zhi-dao.png"
+  ]
+ },
+ {
+  "id": "zou",
+  "word": "走",
+  "pinyin": "zǒu",
+  "cat": "action",
+  "desc": [
+   "一手伸开食、中指，指尖向下，一前一后交替向前移动。"
+  ],
+  "tip": "食中指指尖向下,交替向前移,像两条腿",
+  "imgs": [
+   "zou.png"
+  ]
+ },
+ {
+  "id": "zuo",
+  "word": "坐",
+  "pinyin": "zuò",
+  "cat": "action",
+  "desc": [
+   "一手伸出拇、小指，坐于另一手掌心上。"
+  ],
+  "tip": "拇小指\"坐\"在另一掌心上",
+  "imgs": [
+   "zuo.png"
+  ]
+ },
+ {
+  "id": "cheng-gong",
+  "word": "成功",
+  "pinyin": "chéng gōng",
+  "cat": "learn",
+  "desc": [
+   "一手伸出拇指，在胸前向上举。"
+  ],
+  "tip": "拇指在胸前向上举",
+  "imgs": [
+   "cheng-gong.png"
+  ]
+ },
+ {
+  "id": "gong-zuo",
+  "word": "工作",
+  "pinyin": "gōng zuò",
+  "cat": "learn",
+  "desc": [
+   "双手握拳，上拳打下拳，即“做”手势，引申为“工作”。"
+  ],
+  "tip": "双拳上下互打,引申为干活、工作",
+  "imgs": [
+   "gong-zuo.png"
+  ]
+ },
+ {
+  "id": "ji-hua",
+  "word": "计划",
+  "pinyin": "jì huà",
+  "cat": "learn",
+  "desc": [
+   "（一）一手食指在太阳穴转一小圈。",
+   "（二）左手平伸，掌心向下。",
+   "右手指尖沿左手小指边缘划一条线，表示计划。"
+  ],
+  "tip": "食指在太阳穴画圈+指尖沿手掌划线",
+  "imgs": [
+   "ji-hua.png"
+  ]
+ },
+ {
+  "id": "jin-bu",
+  "word": "进步",
+  "pinyin": "jìn bù",
+  "cat": "learn",
+  "desc": [
+   "一手拇、食指相捏，边向前伸出两指。"
+  ],
+  "tip": "拇食指相捏向前伸出,向前挪了一步",
+  "imgs": [
+   "jin-bu.png"
+  ]
+ },
+ {
+  "id": "jue-ding",
+  "word": "决定",
+  "pinyin": "jué dìng",
+  "cat": "learn",
+  "desc": [
+   "（一）同“表决”手势（二）。",
+   "（二）一手食指自上而下挥动一下。"
+  ],
+  "tip": "食指自上而下挥动,一锤定音",
+  "imgs": [
+   "jue-ding.png"
+  ]
+ },
+ {
+  "id": "kai-hui",
+  "word": "开会",
+  "pinyin": "kāi huì",
+  "cat": "learn",
+  "desc": [
+   "（一）双手掌心相对，手指伸直并拢，然后双手同时向左右两侧外翻，手背向外。",
+   "（二）双手五指微曲，从两侧向中间并拢。"
+  ],
+  "tip": "双掌外翻(散开?)+五指从两侧并拢聚齐",
+  "imgs": [
+   "kai-hui.png"
+  ]
+ },
+ {
+  "id": "nu-li",
+  "word": "努力",
+  "pinyin": "nǔ lì",
+  "cat": "learn",
+  "desc": [
+   "（一）双手握拳屈肘，在胸前交替向前转动两下。",
+   "（二）一手握拳屈肘，向内弯动一下。"
+  ],
+  "tip": "双拳屈肘用力一顿,加油干",
+  "imgs": [
+   "nu-li.png"
+  ]
+ },
+ {
+  "id": "shang-ban",
+  "word": "上班",
+  "pinyin": "shàng bān",
+  "cat": "learn",
+  "desc": [
+   "（一）一手食指向上指。",
+   "（二）双手握拳，上拳打下拳，即“做”手势，引申为“工作”。"
+  ],
+  "tip": "食指向上指+“做”手势",
+  "imgs": [
+   "shang-ban.png"
+  ]
+ },
+ {
+  "id": "shi-bai",
+  "word": "失败",
+  "pinyin": "shī bài",
+  "cat": "learn",
+  "desc": [
+   "一手伸出小指，指尖向上，由上向下移动。"
+  ],
+  "tip": "小指由上向下移,向下走了",
+  "imgs": [
+   "shi-bai.png"
+  ]
+ },
+ {
+  "id": "xi-guan",
+  "word": "习惯",
+  "pinyin": "xí guàn",
+  "cat": "learn",
+  "desc": [
+   "一手五指撮合，指尖在前额按一下，再向下移，并张开五指。"
+  ],
+  "tip": "五指撮合按前额再下移张开,养成自然",
+  "imgs": [
+   "xi-guan.png"
+  ]
+ },
+ {
+  "id": "xi-wang",
+  "word": "希望",
+  "pinyin": "xī wàng",
+  "cat": "learn",
+  "desc": [
+   "一手打手指字母“X”的指式，先置于太阳穴处，然后向外挥动。"
+  ],
+  "tip": "字母X指式从太阳穴向外挥,寄望未来",
+  "imgs": [
+   "xi-wang.png"
+  ]
+ },
+ {
+  "id": "xia-ban",
+  "word": "下班",
+  "pinyin": "xià bān",
+  "cat": "learn",
+  "desc": [
+   "（一）一手食指向下指。",
+   "（二）双手握拳，上拳打下拳，即“做”手势，引申为“工作”。"
+  ],
+  "tip": "食指向下指+“做”手势",
+  "imgs": [
+   "xia-ban.png"
+  ]
+ },
+ {
+  "id": "xing-qu",
+  "word": "兴趣",
+  "pinyin": "xìng qù",
+  "cat": "learn",
+  "desc": [
+   "一手拇、食指相捏，放在嘴边捻动，如品尝状而脸露笑容。"
+  ],
+  "tip": "拇食指在嘴边捻动,像品出滋味",
+  "imgs": [
+   "xing-qu.png"
+  ]
+ },
+ {
+  "id": "xuan-ze",
+  "word": "选择",
+  "pinyin": "xuǎn zé",
+  "cat": "learn",
+  "desc": [
+   "一）左手五指张开伸直，右手拇、食指捏一下左手食指，然后向上一提，表示“选拔”“选择”。",
+   "（二）一手上举，表示“同意”，“承认”。"
+  ],
+  "tip": "捏住左手食指向上提,挑出来了",
+  "imgs": [
+   "xuan-ze.png"
+  ]
+ },
+ {
+  "id": "ai",
+  "word": "爱",
+  "pinyin": "ài",
+  "cat": "mood",
+  "desc": [
+   "一手轻轻抚摩另一手拇指指背，表示一种“怜爱”的感情。"
+  ],
+  "tip": "轻抚另一手拇指指背,满眼怜爱",
+  "imgs": [
+   "ai.png"
+  ]
+ },
+ {
+  "id": "gao-xing",
+  "word": "高兴",
+  "pinyin": "gāo xìng",
+  "cat": "mood",
+  "desc": [
+   "双手掌心向上，在胸前上下扇动，脸露笑容。"
+  ],
+  "tip": "双掌在胸前上下扇动,眉开眼笑",
+  "imgs": [
+   "gao-xing.png"
+  ]
+ },
+ {
+  "id": "hai-pa",
+  "word": "害怕",
+  "pinyin": "hài pà",
+  "cat": "mood",
+  "desc": [
+   "一手拍几下胸部，脸露害怕神态。"
+  ],
+  "tip": "拍几下胸口,一脸惊慌",
+  "imgs": [
+   "hai-pa.png"
+  ]
+ },
+ {
+  "id": "jin-zhang",
+  "word": "紧张",
+  "pinyin": "jǐn zhāng",
+  "cat": "mood",
+  "desc": [
+   "双手紧紧握拳，在胸前上下微动，脸露“紧张”的神态。"
+  ],
+  "tip": "双拳紧握在胸前上下微动",
+  "imgs": [
+   "jin-zhang.png"
+  ]
+ },
+ {
+  "id": "lei",
+  "word": "累",
+  "pinyin": "lèi",
+  "cat": "mood",
+  "desc": [
+   "一手握拳敲打另一侧臂部，脸现倦容，表示劳累之意。"
+  ],
+  "tip": "握拳敲另一侧手臂,一脸倦意",
+  "imgs": [
+   "lei.png"
+  ]
+ },
+ {
+  "id": "man-yi",
+  "word": "满意",
+  "pinyin": "mǎn yì",
+  "cat": "mood",
+  "desc": [
+   "（一）一手平伸，掌心向下，从腹部向颏部移动。",
+   "（二）一手食指伸直。",
+   "因“一”与“意”谐音，此处借用。"
+  ],
+  "tip": "掌心从腹部移到颏下+\"一\"谐音\"意\"",
+  "imgs": [
+   "man-yi.png"
+  ]
+ },
+ {
+  "id": "nan-guo",
+  "word": "难过",
+  "pinyin": "nán guò",
+  "cat": "mood",
+  "desc": [
+   "一手虚握贴于胸部，并转动几下，脸露愁容。"
+  ],
+  "tip": "虚握贴胸转动,愁容满面",
+  "imgs": [
+   "nan-guo.png"
+  ]
+ },
+ {
+  "id": "sheng-qi",
+  "word": "生气",
+  "pinyin": "shēng qì",
+  "cat": "mood",
+  "desc": [
+   "一手食指竖立于鼻尖前,左右微微摆动,脸露怒容,表示气冲冲的样子。"
+  ],
+  "tip": "食指立于鼻前左右摆动,气呼呼",
+  "imgs": [
+   "sheng-qi.png"
+  ]
+ },
+ {
+  "id": "xi-huan",
+  "word": "喜欢",
+  "pinyin": "xǐ huān",
+  "cat": "mood",
+  "desc": [
+   "一手拇、食指微曲，指尖抵于颌下，头微微点动一下。"
+  ],
+  "tip": "拇食指尖抵颌下,头轻轻点动",
+  "imgs": [
+   "xi-huan.png"
+  ]
+ },
+ {
+  "id": "da-zhen",
+  "word": "打针",
+  "pinyin": "dǎ zhēn",
+  "cat": "health",
+  "desc": [
+   "一手握拳向下击打。",
+   "一手先作执针缝衣动作，然后再伸出拇、食指，相距约一寸，如针的长度。"
+  ],
+  "tip": "执针缝衣状+拇食指比针的长度",
+  "imgs": [
+   "da-zhen.png",
+   "da-zhen-2.png"
+  ]
+ },
+ {
+  "id": "er-duo",
+  "word": "耳朵",
+  "pinyin": "ěr duǒ",
+  "cat": "health",
+  "desc": [
+   "一手食指指耳朵。"
+  ],
+  "tip": "食指指向耳朵",
+  "imgs": [
+   "er-duo.png"
+  ]
+ },
+ {
+  "id": "fa-shao",
+  "word": "发烧",
+  "pinyin": "fā shāo",
+  "cat": "health",
+  "desc": [
+   "一手先按于前额，面作痛苦表情，然后手移至头边，五指微曲，指尖向上，微动两下。"
+  ],
+  "tip": "手按前额再五指微曲微动,脸颊发烫",
+  "imgs": [
+   "fa-shao.png"
+  ]
+ },
+ {
+  "id": "gan-mao",
+  "word": "感冒",
+  "pinyin": "gǎn mào",
+  "cat": "health",
+  "desc": [
+   "一手五指撮合，指尖抵于额部，面现痛苦表情，表示头痛。",
+   "另一手捂于胸部，表示胸闷难受。"
+  ],
+  "tip": "撮指抵额(头痛)+捂胸(难受)",
+  "imgs": [
+   "gan-mao.png"
+  ]
+ },
+ {
+  "id": "jian-kang",
+  "word": "健康",
+  "pinyin": "jiàn kāng",
+  "cat": "health",
+  "desc": [
+   "双手贴于胸前，向下微移，同时握拳伸拇指并向下一顿。"
+  ],
+  "tip": "双手贴胸下移+握拳伸拇指向下一顿,结实",
+  "imgs": [
+   "jian-kang.png"
+  ]
+ },
+ {
+  "id": "jiao",
+  "word": "脚",
+  "pinyin": "jiǎo",
+  "cat": "health",
+  "desc": [
+   "左手平伸，手背向上，五指并拢。",
+   "右手掌在左手背上从前向后摸一下。"
+  ],
+  "tip": "右手在平伸的左手背上从前向后摸",
+  "imgs": [
+   "jiao.png"
+  ]
+ },
+ {
+  "id": "shen-ti",
+  "word": "身体",
+  "pinyin": "shēn tǐ",
+  "cat": "health",
+  "desc": [
+   "双手掌心向内，贴于胸部，向下微移，象征身体。"
+  ],
+  "tip": "双手贴胸向下移",
+  "imgs": [
+   "shen-ti.png"
+  ]
+ },
+ {
+  "id": "sheng-bing",
+  "word": "生病",
+  "pinyin": "shēng bìng",
+  "cat": "health",
+  "desc": [
+   "一手连续打出手指字母“SH”“NG”的指式。",
+   "一手食、中、无名指搭于另一手脉门处，如中医诊脉动作。"
+  ],
+  "tip": "\"生\"字指式+三指搭脉",
+  "imgs": [
+   "sheng-bing.png",
+   "sheng-bing-2.png"
+  ]
+ },
+ {
+  "id": "shou",
+  "word": "手",
+  "pinyin": "shǒu",
+  "cat": "health",
+  "desc": [
+   "一手五指自然张开,另一手食指指向其掌心。"
+  ],
+  "tip": "食指指向另一手张开的手掌",
+  "imgs": []
+ },
+ {
+  "id": "teng",
+  "word": "疼",
+  "pinyin": "téng",
+  "cat": "health",
+  "desc": [
+   "一手食指指点疼痛的部位,面露痛苦表情。"
+  ],
+  "tip": "食指指点疼痛处,皱眉",
+  "imgs": []
+ },
+ {
+  "id": "tou",
+  "word": "头",
+  "pinyin": "tóu",
+  "cat": "health",
+  "desc": [
+   "一手五指微曲,罩于头顶,如轻摸头状。"
+  ],
+  "tip": "五指微曲罩于头顶",
+  "imgs": []
+ },
+ {
+  "id": "yan-jing",
+  "word": "眼睛",
+  "pinyin": "yǎn jīng",
+  "cat": "health",
+  "desc": [
+   "一手食指指眼部。"
+  ],
+  "tip": "食指指向眼眶",
+  "imgs": [
+   "yan-jing.png"
+  ]
+ },
+ {
+  "id": "yao",
+  "word": "药",
+  "pinyin": "yào",
+  "cat": "health",
+  "desc": [
+   "一手连打手指字母“Y”“O”两个指式。"
+  ],
+  "tip": "连打字母Y、O指式",
+  "imgs": [
+   "yao.png"
+  ]
+ },
+ {
+  "id": "zui",
+  "word": "嘴",
+  "pinyin": "zuǐ",
+  "cat": "health",
+  "desc": [
+   "一手食指指向嘴部。"
+  ],
+  "tip": "食指指向嘴部",
+  "imgs": []
+ },
+ {
+  "id": "ai",
+  "word": "矮",
+  "pinyin": "ǎi",
+  "cat": "describe",
+  "desc": [
+   "一手平伸,掌心向下,往下微压,表示高度低。"
+  ],
+  "tip": "掌心向下往下压",
+  "imgs": [
+   "ai.png"
+  ]
+ },
+ {
+  "id": "da",
+  "word": "大",
+  "pinyin": "dà",
+  "cat": "describe",
+  "desc": [
+   "双手横伸,掌心向下,同时向两侧拉开,表示面积大。"
+  ],
+  "tip": "双手横伸向两侧拉开,越拉越大",
+  "imgs": [
+   "da.png"
+  ]
+ },
+ {
+  "id": "da-an",
+  "word": "答案",
+  "pinyin": "dá àn",
+  "cat": "describe",
+  "desc": [
+   "（一）一手食指直立，手背向内，然后手腕向内转动，食指指尖指向嘴部。",
+   "（二）一手虚握，在另一手掌心上逐一伸出食、中、无名、小指。"
+  ],
+  "tip": "食指转向嘴(答)+手指逐一立起(逐条)",
+  "imgs": [
+   "da-an.png"
+  ]
+ },
+ {
+  "id": "duan",
+  "word": "短",
+  "pinyin": "duǎn",
+  "cat": "describe",
+  "desc": [
+   "双手伸出食指，指面相对，由两侧向中间靠拢至相距寸许。"
+  ],
+  "tip": "双手食指相对,间距收得很窄",
+  "imgs": [
+   "duan.png"
+  ]
+ },
+ {
+  "id": "duo",
+  "word": "多",
+  "pinyin": "duō",
+  "cat": "describe",
+  "desc": [
+   "一手五指伸开、微曲，微微抖动几下。"
+  ],
+  "tip": "五指微张抖动几下,数不过来",
+  "imgs": [
+   "duo.png"
+  ]
+ },
+ {
+  "id": "duo-shao",
+  "word": "多少",
+  "pinyin": "duō shǎo",
+  "cat": "describe",
+  "desc": [
+   "一手五指分开，指尖向上，手指微微抖动几下，表示“数量”“多少”之意。"
+  ],
+  "tip": "五指微抖,问数量",
+  "imgs": [
+   "duo-shao.png"
+  ]
+ },
+ {
+  "id": "gan-jing",
+  "word": "干净",
+  "pinyin": "gān jìng",
+  "cat": "describe",
+  "desc": [
+   "双手五指平伸，指尖相对，然后向上升起。"
+  ],
+  "tip": "五指相对向上升起,一尘不染",
+  "imgs": [
+   "gan-jing.png"
+  ]
+ },
+ {
+  "id": "gao",
+  "word": "高",
+  "pinyin": "gāo",
+  "cat": "describe",
+  "desc": [
+   "一手平伸，掌心向下，向上举过头。"
+  ],
+  "tip": "掌心向下举过头顶",
+  "imgs": [
+   "gao.png"
+  ]
+ },
+ {
+  "id": "hao",
+  "word": "好",
+  "pinyin": "hǎo",
+  "cat": "describe",
+  "desc": [
+   "一手握拳，向上伸出拇指。"
+  ],
+  "tip": "竖起大拇指",
+  "imgs": [
+   "hao.png"
+  ]
+ },
+ {
+  "id": "huai",
+  "word": "坏",
+  "pinyin": "huài",
+  "cat": "describe",
+  "desc": [
+   "一手握拳，向下伸出小指。"
+  ],
+  "tip": "握拳向下伸小指,向下走",
+  "imgs": [
+   "huai.png"
+  ]
+ },
+ {
+  "id": "ji",
+  "word": "几",
+  "pinyin": "jǐ",
+  "cat": "describe",
+  "desc": [
+   "同多少，一手五指分开，指尖向上，手指微微抖动几下，表示“数量”“多少”之意。"
+  ],
+  "tip": "与\"多少\"相同",
+  "imgs": [
+   "ji.png"
+  ]
+ },
+ {
+  "id": "kuai",
+  "word": "快",
+  "pinyin": "kuài",
+  "cat": "describe",
+  "desc": [
+   "一手拇、食指相捏，很快地从一侧向另一侧作快速挥动，象征物体运动速度很快。"
+  ],
+  "tip": "拇食指相捏快速挥动,嗖一下",
+  "imgs": [
+   "kuai.png"
+  ]
+ },
+ {
+  "id": "leng",
+  "word": "冷",
+  "pinyin": "lěng",
+  "cat": "describe",
+  "desc": [
+   "双手握拳曲肘，臂部贴在身上微动，如冷得发抖状。"
+  ],
+  "tip": "双拳抱臂发抖",
+  "imgs": [
+   "leng.png"
+  ]
+ },
+ {
+  "id": "liang-kuai",
+  "word": "凉快",
+  "pinyin": "liáng kuài",
+  "cat": "describe",
+  "desc": [
+   "双手握拳曲肘，臂部贴在身上微动，如冷得发抖状。",
+   "一手拇、食指相捏，很快地从一侧向另一侧作快速挥动，象征物体运动速度很快。"
+  ],
+  "tip": "\"冷\"的发抖+\"快\"的挥动,凉爽",
+  "imgs": [
+   "liang-kuai.png",
+   "liang-kuai-2.png"
+  ]
+ },
+ {
+  "id": "man",
+  "word": "慢",
+  "pinyin": "màn",
+  "cat": "describe",
+  "desc": [
+   "一手掌心向下，慢慢地上下微动几下，象征物体运动速度缓慢。"
+  ],
+  "tip": "掌心向下慢慢上下微动,慢慢来",
+  "imgs": [
+   "man.png"
+  ]
+ },
+ {
+  "id": "na-li",
+  "word": "哪里",
+  "pinyin": "nǎ lǐ",
+  "cat": "describe",
+  "desc": [
+   "一手食指指尖向外，作波纹状移动几下。"
+  ],
+  "tip": "食指指尖向外波纹状移动,在哪儿",
+  "imgs": [
+   "na-li.png"
+  ]
+ },
+ {
+  "id": "nuan-huo",
+  "word": "暖和",
+  "pinyin": "nuǎn huo",
+  "cat": "describe",
+  "desc": [
+   "双手微曲，掌心向上，由腹部慢慢地移到胸部。"
+  ],
+  "tip": "双手掌心向上从腹部移到胸部,暖暖的",
+  "imgs": [
+   "nuan-huo.png"
+  ]
+ },
+ {
+  "id": "piao-liang",
+  "word": "漂亮",
+  "pinyin": "piào liàng",
+  "cat": "describe",
+  "desc": [
+   "一手食、中指先置于鼻部，然后下移并收缩，伸出拇指，表示美、美丽、漂亮、好看的意思。"
+  ],
+  "tip": "食中指从鼻部下移收缩,再伸拇指,真美",
+  "imgs": [
+   "piao-liang.png"
+  ]
+ },
+ {
+  "id": "re",
+  "word": "热",
+  "pinyin": "rè",
+  "cat": "describe",
+  "desc": [
+   "一手五指微张，自前额向面颊部划动，象征流汗。",
+   "（可根据实际情况模仿热的状态）。"
+  ],
+  "tip": "五指微张从额头划到面颊,汗都出来了",
+  "imgs": [
+   "re.png"
+  ]
+ },
+ {
+  "id": "shao",
+  "word": "少",
+  "pinyin": "shǎo",
+  "cat": "describe",
+  "desc": [
+   "一手拇、食指相捏，拇指弹动食指尖。"
+  ],
+  "tip": "拇指弹动食指尖,只有一点点",
+  "imgs": [
+   "shao.png"
+  ]
+ },
+ {
+  "id": "shen-me",
+  "word": "什么",
+  "pinyin": "shén me",
+  "cat": "describe",
+  "desc": [
+   "双手伸开，掌心向下，然后翻转为掌心向上。"
+  ],
+  "tip": "双手掌心向下翻转为向上,\"这是啥?\"",
+  "imgs": [
+   "shen-me.png"
+  ]
+ },
+ {
+  "id": "shui",
+  "word": "谁",
+  "pinyin": "shuí",
+  "cat": "describe",
+  "desc": [
+   "一手伸食指，指尖向上，在肩前摇动。"
+  ],
+  "tip": "食指在肩前摇动,是谁呢",
+  "imgs": [
+   "shui.png"
+  ]
+ },
+ {
+  "id": "wei-shen-me",
+  "word": "为什么",
+  "pinyin": "wèi shén me",
+  "cat": "describe",
+  "desc": [
+   "（一）一手伸出拇、食指，转动几下。",
+   "（二）双手伸开，掌心向下，然后翻转为掌心向上。"
+  ],
+  "tip": "拇食指转动+双手翻掌,追根问底",
+  "imgs": [
+   "wei-shen-me.png"
+  ]
+ },
+ {
+  "id": "wen-ti",
+  "word": "问题",
+  "pinyin": "wèn tí",
+  "cat": "describe",
+  "desc": [
+   "右手食指伸出，先书空问号上半部“？”形，再向前一指。"
+  ],
+  "tip": "书空问号\"?\"再向前一指",
+  "imgs": [
+   "wen-ti.png"
+  ]
+ },
+ {
+  "id": "xiao",
+  "word": "小",
+  "pinyin": "xiǎo",
+  "cat": "describe",
+  "desc": [
+   "双手横伸,掌心向下,同时向中间靠拢,表示范围小。"
+  ],
+  "tip": "双手横伸向中间靠拢,缩成一点",
+  "imgs": [
+   "xiao.png"
+  ]
+ },
+ {
+  "id": "xin",
+  "word": "新",
+  "pinyin": "xīn",
+  "cat": "describe",
+  "desc": [
+   "一手伸出拇指，从另一手背上向外划过，表示“全好”之意，此引申为“新”。"
+  ],
+  "tip": "拇指从另一手背划过,\"全好\"引申为新",
+  "imgs": [
+   "xin.png"
+  ]
+ },
+ {
+  "id": "yi-si",
+  "word": "意思",
+  "pinyin": "yì si",
+  "cat": "describe",
+  "desc": [
+   "（一）手指字母“Y”的指式。",
+   "（二）一手食指在太阳穴处转一圈。"
+  ],
+  "tip": "字母Y指式+食指在太阳穴转圈",
+  "imgs": [
+   "yi-si.png"
+  ]
+ },
+ {
+  "id": "zang",
+  "word": "脏",
+  "pinyin": "zàng",
+  "cat": "describe",
+  "desc": [
+   "一手伸出小指，在胸前由上向下挥动一下，表示衣服很脏之意。"
+  ],
+  "tip": "小指在胸前由上向下挥,嫌弃",
+  "imgs": [
+   "zang.png"
+  ]
+ },
+ {
+  "id": "zen-me",
+  "word": "怎么",
+  "pinyin": "zěn me",
+  "cat": "describe",
+  "desc": [
+   "双手握拳，右拳打一下左拳。",
+   "左拳不动，右拳向上翻开手掌。"
+  ],
+  "tip": "右拳打左拳再翻开手掌,怎么回事",
+  "imgs": [
+   "zen-me.png"
+  ]
+ },
+ {
+  "id": "zhang",
+  "word": "长",
+  "pinyin": "zhǎng",
+  "cat": "describe",
+  "desc": [
+   "双手食指相对，从中间向两侧拉开。"
+  ],
+  "tip": "双手食指相对,间距拉得很宽",
+  "imgs": [
+   "zhang.png"
+  ]
+ },
+ {
+  "id": "bao",
+  "word": "包",
+  "pinyin": "bāo",
+  "cat": "things",
+  "desc": [
+   "双手掌心向上，右手向左一翻。",
+   "左手向右一翻，手背向上，模仿包东西状。"
+  ],
+  "tip": "双手交替翻掌,把东西包起来",
+  "imgs": [
+   "bao.png"
+  ]
+ },
+ {
+  "id": "chuang",
+  "word": "窗",
+  "pinyin": "chuāng",
+  "cat": "things",
+  "desc": [
+   "一手四指分开伸直，横、直各划一下，形成方格状，表示窗子。"
+  ],
+  "tip": "四指横直各划一下,组成窗格",
+  "imgs": [
+   "chuang.png"
+  ]
+ },
+ {
+  "id": "chuang",
+  "word": "床",
+  "pinyin": "chuáng",
+  "cat": "things",
+  "desc": [
+   "双手食、小指向上伸直，中、无名指与掌成直角，指尖相触，拇指自然微曲，搭乘“床”形状。"
+  ],
+  "tip": "双手指搭成床形",
+  "imgs": [
+   "chuang.png"
+  ]
+ },
+ {
+  "id": "deng",
+  "word": "灯",
+  "pinyin": "dēng",
+  "cat": "things",
+  "desc": [
+   "一手五指撮合，指尖向下，然后五指放开，象征灯光。",
+   "()。"
+  ],
+  "tip": "五指撮合在指尖向下再放开,灯亮了",
+  "imgs": [
+   "deng.png"
+  ]
+ },
+ {
+  "id": "gui",
+  "word": "贵",
+  "pinyin": "guì",
+  "cat": "things",
+  "desc": [
+   "一手拇、食指指尖相对,间距渐渐拉开,表示价钱往上抬。"
+  ],
+  "tip": "拇食指间距渐拉大,价钱往上抬",
+  "imgs": []
+ },
+ {
+  "id": "li-wu",
+  "word": "礼物",
+  "pinyin": "lǐ wù",
+  "cat": "things",
+  "desc": [
+   "（一）双手五指撮合，如捏物状，向上稍提。",
+   "（二）双手食指互碰一下，同时分开五指（即“物件”手势）。"
+  ],
+  "tip": "撮合捧起+食指互碰(物件)",
+  "imgs": [
+   "li-wu.png"
+  ]
+ },
+ {
+  "id": "mao-zi",
+  "word": "帽子",
+  "pinyin": "mào zi",
+  "cat": "things",
+  "desc": [
+   "一手做执帽向头上戴的动作。"
+  ],
+  "tip": "执帽往头上戴",
+  "imgs": [
+   "mao-zi.png"
+  ]
+ },
+ {
+  "id": "men",
+  "word": "门",
+  "pinyin": "mén",
+  "cat": "things",
+  "desc": [
+   "双手五指并拢，掌心向外，并排直立，模拟两扇关着的门的形状。"
+  ],
+  "tip": "双掌并排直立,像两扇门",
+  "imgs": [
+   "men.png"
+  ]
+ },
+ {
+  "id": "pian-yi",
+  "word": "便宜",
+  "pinyin": "pián yi",
+  "cat": "things",
+  "desc": [
+   "一手拇、食指指尖相捏，在另一手掌心上轻拍两下，表示钱很少，即便宜之意。"
+  ],
+  "tip": "捏指在掌心轻拍,钱很少",
+  "imgs": [
+   "pian-yi.png"
+  ]
+ },
+ {
+  "id": "qian",
+  "word": "钱",
+  "pinyin": "qián",
+  "cat": "things",
+  "desc": [
+   "一手拇、食指捏成小圆形，向外微动几下。"
+  ],
+  "tip": "拇食指捏成小圆,捻动数钱",
+  "imgs": [
+   "qian.png"
+  ]
+ },
+ {
+  "id": "shu",
+  "word": "书",
+  "pinyin": "shū",
+  "cat": "things",
+  "desc": [
+   "双手掌心相合，再打开来，如翻书本状。"
+  ],
+  "tip": "双掌相合再翻开,像翻书",
+  "imgs": [
+   "shu.png"
+  ]
+ },
+ {
+  "id": "xie-zi",
+  "word": "鞋子",
+  "pinyin": "xié zi",
+  "cat": "things",
+  "desc": [
+   "左手五指微曲。",
+   "掌心向下，右手指尖向左掌心微曲处插入，如穿鞋状。",
+   "布鞋、棉鞋、皮鞋等均用此作基本手势。"
+  ],
+  "tip": "指尖插进微曲的手掌,像把脚伸进鞋",
+  "imgs": [
+   "xie-zi.png"
+  ]
+ },
+ {
+  "id": "yao-shi",
+  "word": "钥匙",
+  "pinyin": "yào shi",
+  "cat": "things",
+  "desc": [
+   "左手拇、食指捏成小圆圈。",
+   "右手拇、食指相捏，如执钥匙状，对准小圆转动，如开锁动作。"
+  ],
+  "tip": "捏匙对准圆孔转动,开锁",
+  "imgs": [
+   "yao-shi.png"
+  ]
+ },
+ {
+  "id": "yi-fu",
+  "word": "衣服",
+  "pinyin": "yī fú",
+  "cat": "things",
+  "desc": [
+   "双手掌心贴胸向下移，至小腹处向左右横划。",
+   "这是上装的外形特征，用来代表“衣服”这个概念。",
+   "夹衣、棉衣、毛衣等均用此手势。"
+  ],
+  "tip": "双手贴胸下移再横划,上装轮廓",
+  "imgs": [
+   "yi-fu.png"
+  ]
+ },
+ {
+  "id": "yi-zi",
+  "word": "椅子",
+  "pinyin": "yǐ zi",
+  "cat": "things",
+  "desc": [
+   "左手直伸，右手四指与左掌成直角，指尖抵住左掌心，如椅子形状。"
+  ],
+  "tip": "右手四指抵住左掌心,像椅子",
+  "imgs": [
+   "yi-zi.png"
+  ]
+ },
+ {
+  "id": "zhi",
+  "word": "纸",
+  "pinyin": "zhǐ",
+  "cat": "things",
+  "desc": [
+   "双手拇指与四指相捏，腕部微微振动几下。"
+  ],
+  "tip": "双手捏纸抖动几下",
+  "imgs": [
+   "zhi.png"
+  ]
+ },
+ {
+  "id": "zhuo-zi",
+  "word": "桌子",
+  "pinyin": "zhuō zi",
+  "cat": "things",
+  "desc": [
+   "双手平伸，掌心向下，从中间向左右平移，成“┌┐”形，如桌子状。"
+  ],
+  "tip": "双手平移成\"┌┐\"形,桌面",
+  "imgs": [
+   "zhuo-zi.png"
+  ]
+ },
+ {
+  "id": "chu-zu-che",
+  "word": "出租车",
+  "pinyin": "chū zū chē",
+  "cat": "travel",
+  "desc": [
+   "一手抚打手指字母“Z”的指式置于胸前，然后手掌平伸，掌心向上，由里向外伸出。"
+  ],
+  "tip": "字母Z指式+手掌由里向外伸出(招手即停)",
+  "imgs": [
+   "chu-zu-che.png"
+  ]
+ },
+ {
+  "id": "chuan",
+  "word": "船",
+  "pinyin": "chuán",
+  "cat": "travel",
+  "desc": [
+   "双手侧伸，指尖相抵向前移动，如船向前行驶。"
+  ],
+  "tip": "双手侧伸指尖相抵前移,破浪前行",
+  "imgs": [
+   "chuan.png"
+  ]
+ },
+ {
+  "id": "di-tie",
+  "word": "地铁",
+  "pinyin": "dì tiě",
+  "cat": "travel",
+  "desc": [
+   "(一)一手食指向下指,表示地下;(二)双手握拳,虎口向上,一上一下,上拳敲打下拳,再向里移动,如列车沿轨道行驶。"
+  ],
+  "tip": "\"地+铁\"组合,上拳敲下拳再向里移",
+  "imgs": [
+   "di-tie.png"
+  ]
+ },
+ {
+  "id": "fei-ji",
+  "word": "飞机",
+  "pinyin": "fēi jī",
+  "cat": "travel",
+  "desc": [
+   "一手伸拇、小指，掌心向下，向前上方作弧形移动，象征飞机外形及起飞情况。"
+  ],
+  "tip": "伸拇小指掌心向下,向前上方弧形移动,起飞",
+  "imgs": [
+   "fei-ji.png"
+  ]
+ },
+ {
+  "id": "gong-gong-qi-che",
+  "word": "公共汽车",
+  "pinyin": "gōng gòng qì chē",
+  "cat": "travel",
+  "desc": [
+   "（一）双手拇、食指搭成“公”字。",
+   "（二）双手虚握如握方向盘，左右转动，模仿操纵方向盘动作。"
+  ],
+  "tip": "“公”字+握方向盘",
+  "imgs": [
+   "gong-gong-qi-che.png"
+  ]
+ },
+ {
+  "id": "huo-che",
+  "word": "火车",
+  "pinyin": "huǒ chē",
+  "cat": "travel",
+  "desc": [
+   "左手食、中指伸直平放，象征铁轨。",
+   "右手食、中指弯曲如钩，指尖抵在座手食、中指上，并向前移动，象征火车在轨道上行驶。"
+  ],
+  "tip": "左手食中指平伸当铁轨,右手弯指在上面前移",
+  "imgs": [
+   "huo-che.png"
+  ]
+ },
+ {
+  "id": "lu",
+  "word": "路",
+  "pinyin": "lù",
+  "cat": "travel",
+  "desc": [
+   "双手侧伸，掌心相对，相距尺余，向前方伸出，表示笔直的大路。"
+  ],
+  "tip": "双手侧伸掌心相对前伸,一条大路",
+  "imgs": [
+   "lu.png"
+  ]
+ },
+ {
+  "id": "ma-lu",
+  "word": "马路",
+  "pinyin": "mǎ lù",
+  "cat": "travel",
+  "desc": [
+   "一手食指直伸，虎口贴近太阳穴，前后微动几下，如马的耳朵。",
+   "双手侧伸，掌心相对，相距尺余，向前方伸出，表示笔直的大路。"
+  ],
+  "tip": "\"马耳朵\"+大路手势",
+  "imgs": [
+   "ma-lu.png",
+   "ma-lu-2.png"
+  ]
+ },
+ {
+  "id": "qi-che",
+  "word": "汽车",
+  "pinyin": "qì chē",
+  "cat": "travel",
+  "desc": [
+   "双手虚握如握方向盘，左右转动，模仿操纵方向盘动作。"
+  ],
+  "tip": "双手虚握转方向盘",
+  "imgs": [
+   "qi-che.png"
+  ]
+ },
+ {
+  "id": "zi-xing-che",
+  "word": "自行车",
+  "pinyin": "zì xíng chē",
+  "cat": "travel",
+  "desc": [
+   "双手握拳，在胸前交替转圈子，如踏自行车动作。"
+  ],
+  "tip": "双拳交替转圈,像蹬车",
+  "imgs": [
+   "zi-xing-che.png"
+  ]
+ },
+ {
+  "id": "chun-jie",
+  "word": "春节",
+  "pinyin": "chūn jié",
+  "cat": "weather",
+  "desc": [
+   "（一）右手伸食指点在左拳食指骨节处（同“春”手势）。",
+   "（二）双手抱拳作拱手祝贺状。"
+  ],
+  "tip": "\"春\"的手势+抱拳拜年",
+  "imgs": [
+   "chun-jie.png"
+  ]
+ },
+ {
+  "id": "chun-tian",
+  "word": "春天",
+  "pinyin": "chūn tiān",
+  "cat": "weather",
+  "desc": [
+   "右手伸食指在左拳食指骨节处点一下，表示第一个季节。"
+  ],
+  "tip": "食指点左拳食指骨节,第一个季节",
+  "imgs": [
+   "chun-tian.png"
+  ]
+ },
+ {
+  "id": "dong-tian",
+  "word": "冬天",
+  "pinyin": "dōng tiān",
+  "cat": "weather",
+  "desc": [
+   "右手伸食指在左拳小指骨节处点一下，表示第四个季节。"
+  ],
+  "tip": "食指点左拳小指骨节,第四个季节",
+  "imgs": [
+   "dong-tian.png"
+  ]
+ },
+ {
+  "id": "feng",
+  "word": "风",
+  "pinyin": "fēng",
+  "cat": "weather",
+  "desc": [
+   "一手五指分开微曲，指尖向上，左右来回扇动，象征空气流动（即刮风）。"
+  ],
+  "tip": "五指分开左右扇动,风来了",
+  "imgs": [
+   "feng.png"
+  ]
+ },
+ {
+  "id": "jie-ri",
+  "word": "节日",
+  "pinyin": "jié rì",
+  "cat": "weather",
+  "desc": [
+   "（一）一手打出手指字母“J”的指式。",
+   "（二）一手拇、食两指弯曲成半圆形，从一边向另一边作半弧形移动，象征从日出到日落，即一天的时间。"
+  ],
+  "tip": "字母J指式+日出到日落的一弧",
+  "imgs": [
+   "jie-ri.png"
+  ]
+ },
+ {
+  "id": "qing",
+  "word": "晴",
+  "pinyin": "qíng",
+  "cat": "weather",
+  "desc": [
+   "一手五指并拢，掌心向外，置于头部前方，向一边移动，同时伸出拇指，表示天气晴朗。"
+  ],
+  "tip": "掌心向外移一下再伸拇指,太阳出来了",
+  "imgs": [
+   "qing.png"
+  ]
+ },
+ {
+  "id": "qiu-tian",
+  "word": "秋天",
+  "pinyin": "qiū tiān",
+  "cat": "weather",
+  "desc": [
+   "右手伸食指在左拳无名指骨节处点一下，表示第三个季节。"
+  ],
+  "tip": "食指点左拳无名指骨节,第三个季节",
+  "imgs": [
+   "qiu-tian.png"
+  ]
+ },
+ {
+  "id": "sheng-ri",
+  "word": "生日",
+  "pinyin": "shēng rì",
+  "cat": "weather",
+  "desc": [
+   "（一）左手虚握，虎口向上。",
+   "右手小指置于左拳内，再向下抽出。",
+   "（二）同“日期”手势（一手拇、食指两指弯曲成半圆形，从一边向另一边作半弧形移动。",
+   "）。"
+  ],
+  "tip": "小指从拳中抽出(出生)+日期手势",
+  "imgs": [
+   "sheng-ri.png"
+  ]
+ },
+ {
+  "id": "tai-yang",
+  "word": "太阳",
+  "pinyin": "tài yáng",
+  "cat": "weather",
+  "desc": [
+   "左手身出拇、食指，微微弯曲，置于头侧上方。",
+   "右手五指虚撮，从左手虎口内斜着向下移，同时放开五指，象征太阳的光芒。"
+  ],
+  "tip": "双手在头侧组合,光芒四射",
+  "imgs": [
+   "tai-yang.png"
+  ]
+ },
+ {
+  "id": "tian-qi",
+  "word": "天气",
+  "pinyin": "tiān qì",
+  "cat": "weather",
+  "desc": [
+   "（一）一手伸食指，指尖向上，在头侧上方转动一圈。",
+   "（二）一手搭“Q”指式，置于鼻孔前。"
+  ],
+  "tip": "头顶转圈(天)+字母Q指式置于鼻前(气)",
+  "imgs": [
+   "tian-qi.png"
+  ]
+ },
+ {
+  "id": "xia-tian",
+  "word": "夏天",
+  "pinyin": "xià tiān",
+  "cat": "weather",
+  "desc": [
+   "右手伸食指在左拳中指骨节处点一下，表示第二个季节。"
+  ],
+  "tip": "食指点左拳中指骨节,第二个季节",
+  "imgs": [
+   "xia-tian.png"
+  ]
+ },
+ {
+  "id": "xia-xue",
+  "word": "下雪",
+  "pinyin": "xià xuě",
+  "cat": "weather",
+  "desc": [
+   "双手五指分开微曲,指尖向下,缓缓下降并向一旁飘移,象征雪花飘落之状。"
+  ],
+  "tip": "五指微曲缓缓下降旁移,雪花飘飘",
+  "imgs": [
+   "xia-xue.png",
+   "xia-xue-2.png"
+  ]
+ },
+ {
+  "id": "xia-yu",
+  "word": "下雨",
+  "pinyin": "xià yǔ",
+  "cat": "weather",
+  "desc": [
+   "一手五指分开微曲，指尖向下，上下快速动几下，象征雨点落下。"
+  ],
+  "tip": "五指分开微曲指尖朝下快速点动,滴滴答答",
+  "imgs": [
+   "xia-yu.png"
+  ]
+ },
+ {
+  "id": "xing-xing",
+  "word": "星星",
+  "pinyin": "xīng xīng",
+  "cat": "weather",
+  "desc": [
+   "一手拇、食指捏成小圆圈，在头上一顿一顿的移动几下，象征天上的星星。"
+  ],
+  "tip": "拇食指捏小圈一顿一顿移动,一闪一闪",
+  "imgs": [
+   "xing-xing.png"
+  ]
+ },
+ {
+  "id": "yin",
+  "word": "阴",
+  "pinyin": "yīn",
+  "cat": "weather",
+  "desc": [
+   "一手伸出小指，指尖向上，在头前上方转一圈，表示天气不好，是阴天。"
+  ],
+  "tip": "小指在头前上方转圈,天色不好",
+  "imgs": [
+   "yin.png"
+  ]
+ },
+ {
+  "id": "yue-liang",
+  "word": "月亮",
+  "pinyin": "yuè liàng",
+  "cat": "weather",
+  "desc": [
+   "双手伸拇、食指，相距约一寸，指尖相对，然后作弧形分开向左右下移，同时拇、食指间距渐小，如半弦新月状。"
+  ],
+  "tip": "拇食指相对作弧形分开,如弯月",
+  "imgs": [
+   "yue-liang.png"
+  ]
+ }
+]

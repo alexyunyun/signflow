@@ -1,0 +1,27 @@
+{
+  "name": "signflow",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SignFlow — 国家通用手语学习:图解词汇 · 日常语句 · 间隔复习 · AI 助教",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "server": "node server/index.mjs",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "vocab": "node scripts/build-vocab.mjs",
+    "start": "node server/index.mjs"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
